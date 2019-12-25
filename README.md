@@ -60,4 +60,14 @@
      * Группировка данных через GROUP BY
        * Фильтрация после группировки
        * Функции работы с группами MAX/MIN/AVG/итд
+     * `[pro]` Понимание и назначение внешних ключей (`foreign key`)
   * noSQL базы данных MongoDB/DocumentDB
+  * Redis
+* Протокол HTTP
+  * Понимание общего формата протокола
+  * Методы HTTP запросов GET, POST, PUT, DELETE итд
+  * Коды HTTP ответов 
+  * Заголовки HTTP запроса
+    * Системные заголовоки Host, Content-Type
+    * Куки
+    * [Кеширование HTTP](https://developer.mozilla.org/ru/docs/Web/HTTP/%D0%9A%D1%8D%D1%88%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5) и изучение HTTP заголовков упарвления кешом Cache-Control, Expires, Vary, ETag, Last-Modified
