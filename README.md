@@ -22,12 +22,12 @@
     * Конвееры команд через `|` (`cmd1 | cmd2`)
     * Фоновые задачи, оператор `&`, команды `fg`, `bg`
   * Понятие 'процесс'
-    * Мастер процесс
+    * Мастер-воркер процессы, демон (daemon)
     * Дочерний процесс, воркер
     * Зомби процесс 
-    * Отправка сигналов процессам 
+    * [Отправка сигналов процессам](https://ru.wikipedia.org/wiki/Сигнал_(Unix))
       * Изучение команды kill, pkill, killall
-      * Назначение сигналов SIGKILL, SIGTERM, SIGINT, SIGHUP, SIGSEV
+      * Назначение сигналов [SIGKILL](https://ru.wikipedia.org/wiki/SIGKILL), [SIGTERM](https://ru.wikipedia.org/wiki/SIGTERM), [SIGINT](https://ru.wikipedia.org/wiki/SIGTERM), [SIGHUP](https://ru.wikipedia.org/wiki/SIGHUP), [SIGSEV](https://ru.wikipedia.org/wiki/SIGSEV)
     * Команада анализа работы процесса через strace
   * Изучение понятия 'дескриптор'
     * Стандартные дескрипторы STDIN, STDOUT, STDERR
@@ -39,6 +39,8 @@
     * Флаги доступов x, r, w (что они значат для файлов и директорий)
     * Понимание описания доступов вида `--xr-xrwx` у файлов и директорий
     * Изменение прав доступов через команды chmod, chown
+  * Исполняемые файлы
+    * [sha bang](https://ru.wikipedia.org/wiki/Шебанг_(Unix))
   * Запуск и остановка сервисов systemd
   * [SSH](https://ru.wikipedia.org/wiki/SSH)
     * Генерация собственного ssh-rsa ключа
