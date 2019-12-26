@@ -65,7 +65,7 @@
   * noSQL базы данных MongoDB/DocumentDB
   * Redis
 * Протокол HTTP
-  * [Понимание общего формата протокола](https://developer.mozilla.org/ru/docs/Web/HTTP/Overview
+  * [Понимание общего формата протокола](https://developer.mozilla.org/ru/docs/Web/HTTP/Overview)
   * Сродниться со вкладкой Сеть/Network в инспекторе браузера, где можно наблюдать HTTP запросы.
   * [Методы HTTP запросов](https://developer.mozilla.org/ru/docs/Web/HTTP/Methods).  Их назначение и ограничения.
     * Основные [GET](https://developer.mozilla.org/ru/docs/Web/HTTP/Methods/GET), [POST](https://developer.mozilla.org/ru/docs/Web/HTTP/Methods/POST), [HEAD](https://developer.mozilla.org/ru/docs/Web/HTTP/Methods/HEAD)
