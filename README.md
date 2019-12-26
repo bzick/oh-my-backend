@@ -1,4 +1,4 @@
-# oh-my-backend
+# Oh My BackEnd
 
 Пункты выствлены в порядке удобства их изучения. Метка `[pro]` означает что этот пункт для более глубокого изучения темы и можно пропустить если хочется.
 
@@ -20,6 +20,7 @@
     * Команды обработки данных tail, head, sed, grep, awk
     * Консольные редакторы vim/vi, nano, less
     * Конвееры команд через `|` (`cmd1 | cmd2`)
+    * Фоновые задачи, оператор `&`, команды `fg`, `bg`
   * Понятие 'процесс'
     * Мастер процесс
     * Дочерний процесс, воркер
@@ -64,10 +65,20 @@
   * noSQL базы данных MongoDB/DocumentDB
   * Redis
 * Протокол HTTP
-  * Понимание общего формата протокола
-  * Методы HTTP запросов GET, POST, PUT, DELETE итд
-  * Коды HTTP ответов 
+  * [Понимание общего формата протокола](https://developer.mozilla.org/ru/docs/Web/HTTP/Overview
+  * Сродниться со вкладкой Сеть/Network в инспекторе браузера, где можно наблюдать HTTP запросы.
+  * [Методы HTTP запросов](https://developer.mozilla.org/ru/docs/Web/HTTP/Methods).  Их назначение и ограничения.
+    * Основные [GET](https://developer.mozilla.org/ru/docs/Web/HTTP/Methods/GET), [POST](https://developer.mozilla.org/ru/docs/Web/HTTP/Methods/POST), [HEAD](https://developer.mozilla.org/ru/docs/Web/HTTP/Methods/HEAD)
+    * Прочие `PUT`, `DELETE` итд.
+  * [Коды HTTP ответов](https://ru.wikipedia.org/wiki/Список_кодов_состояния_HTTP)
+    * Основные (частые): 200, 301, 302, 304, 400, 401, 403, 404, 500, 502, 503, 504
+    * Другие
   * Заголовки HTTP запроса
-    * Системные заголовоки Host, Content-Type
-    * Куки
+    * Системные заголовоки Host, Content-Type, Content-Length
     * [Кеширование HTTP](https://developer.mozilla.org/ru/docs/Web/HTTP/%D0%9A%D1%8D%D1%88%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5) и изучение HTTP заголовков упарвления кешом Cache-Control, Expires, Vary, ETag, Last-Modified
+  * [Куки](https://developer.mozilla.org/ru/docs/Web/HTTP/%D0%9A%D1%83%D0%BA%D0%B8)
+  * Различия версий протокола HTTP/1.0, HTTP/1.1, HTTP/2.0
+  * Тело HTTP запроса
+    * Формат передачи `application/x-www-form-urlencoded`
+    * Формат передачи [multipart/form-data](https://ru.wikipedia.org/wiki/Multipart/form-data)
+    * Влияние заголовков (Content-Length, [Content-Encoding](https://developer.mozilla.org/ru/docs/Web/HTTP/Headers/Content-Encoding), [Transfer-Encoding](https://developer.mozilla.org/ru/docs/Web/HTTP/Headers/Transfer-Encoding)) на тело 
