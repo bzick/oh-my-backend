@@ -27,7 +27,7 @@
     * Зомби процесс 
     * [Отправка сигналов процессам](https://ru.wikipedia.org/wiki/Сигнал_(Unix))
       * Изучение команды kill, pkill, killall
-      * Назначение сигналов [SIGKILL](https://ru.wikipedia.org/wiki/SIGKILL), [SIGTERM](https://ru.wikipedia.org/wiki/SIGTERM), [SIGINT](https://ru.wikipedia.org/wiki/SIGTERM), [SIGHUP](https://ru.wikipedia.org/wiki/SIGHUP), [SIGSEV](https://ru.wikipedia.org/wiki/SIGSEV)
+      * Назначение сигналов [SIGKILL](https://ru.wikipedia.org/wiki/SIGKILL), [SIGTERM](https://ru.wikipedia.org/wiki/SIGTERM), [SIGINT](https://ru.wikipedia.org/wiki/SIGTERM), [SIGHUP](https://ru.wikipedia.org/wiki/SIGHUP), [SIGSEGV](https://ru.wikipedia.org/wiki/SIGSEGV)
     * Команада анализа работы процесса через strace
   * Изучение понятия 'дескриптор'
     * Стандартные дескрипторы STDIN, STDOUT, STDERR
