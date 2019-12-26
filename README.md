@@ -46,11 +46,15 @@
 * Общие знания
   * Регулярные выражения
   * Базовое понимание работы сети, протокл TCP и протокл UDP
-  * Хеш функции, в том числе `md5`, `sha1`.
+  * Хеш функции, в том числе `md5`, `sha1`. Цифровые подписи, соль для подписей.
   * Базовая работа с git
     * комит изменений 
     * отправка изменений push/pull
     * создание веток и тега
+  * Стуктуры хранения данных
+    * Хеш таблицы
+    * Очередь и стек
+    * [Связный список](https://ru.wikipedia.org/wiki/Связный_список) и [двусвязный список](https://ru.wikipedia.org/wiki/Связный_список#Двусвязный_список_(двунаправленный_связный_список))
 * Базы данных
   * SQL базы данных MySQL/Postgres/итд
     * Базовый синтаксис запросов SELECT/INSERT/UPDATE
@@ -76,6 +80,11 @@
      * `[pro]` Понимание и назначение внешних ключей (`foreign key`)
   * noSQL базы данных MongoDB/DocumentDB
   * Redis
+    * базовая работа с ключами
+    * работа со списками
+    * работа с хешами
+    * работа с набором и сортированным набором
+    * `[pro]` Алгоритм хранения [Skip List](https://ru.wikipedia.org/wiki/Список_с_пропусками)
 * Протокол HTTP
   * [Понимание общего формата протокола](https://developer.mozilla.org/ru/docs/Web/HTTP/Overview)
   * Сродниться со вкладкой Сеть/Network в инспекторе браузера, где можно наблюдать HTTP запросы.
@@ -89,8 +98,12 @@
     * Системные заголовоки Host, Content-Type, Content-Length
     * [Кеширование HTTP](https://developer.mozilla.org/ru/docs/Web/HTTP/%D0%9A%D1%8D%D1%88%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5) и изучение HTTP заголовков упарвления кешом Cache-Control, Expires, Vary, ETag, Last-Modified
   * [Куки](https://developer.mozilla.org/ru/docs/Web/HTTP/%D0%9A%D1%83%D0%BA%D0%B8)
-  * Различия версий протокола HTTP/1.0, HTTP/1.1, HTTP/2.0
+  * Различия версий протокола HTTP/1.0, HTTP/1.1 
   * Тело HTTP запроса
     * Формат передачи `application/x-www-form-urlencoded`
     * Формат передачи [multipart/form-data](https://ru.wikipedia.org/wiki/Multipart/form-data)
     * Влияние заголовков (Content-Length, [Content-Encoding](https://developer.mozilla.org/ru/docs/Web/HTTP/Headers/Content-Encoding), [Transfer-Encoding](https://developer.mozilla.org/ru/docs/Web/HTTP/Headers/Transfer-Encoding)) на тело 
+  * `[pro]` HTTP/2.0 протокол
+  * `[pro]` WebSocket протокол
+* Web сервер [NGINX](https://nginx.org/ru/)
+  * Ознакомление с базово конифгурацией nginx `/etc/nginx/nginx.conf`
