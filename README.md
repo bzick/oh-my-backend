@@ -63,7 +63,7 @@
     * XML
 * Базы данных
   * SQL базы данных MySQL/Postgres/итд
-    * Базовый синтаксис запросов SELECT/INSERT/UPDATE
+    * Базовый синтаксис запросов SELECT/INSERT/UPDATE/DELETE
     * Типы колонок таблиц их назначение их различие (на примере MySQL и схожих)
       * tinyint/smallint/int/bigint
       * tinytext/text/mediumtext/longtext
@@ -83,16 +83,17 @@
      * Группировка данных через GROUP BY
        * Фильтрация после группировки
        * Функции работы с группами MAX/MIN/AVG/итд
-     * `[pro]` Понимание и назначение внешних ключей (`foreign key`)
+     * Понимание и назначение внешних ключей (`foreign key`)
+     * 
   * noSQL базы данных MongoDB/DocumentDB
   * Redis
     * базовая работа с ключами
     * работа со списками
     * работа с хешами
     * работа с набором и сортированным набором
-    * `[pro]` Алгоритм хранения [Skip List](https://ru.wikipedia.org/wiki/Список_с_пропусками)
+    * `[pro]` Алгоритм хранения [skip List](https://ru.wikipedia.org/wiki/Список_с_пропусками)
 * Протокол HTTP
-  * [Понимание общего формата протокола](https://developer.mozilla.org/ru/docs/Web/HTTP/Overview)
+  * [Понимание общего формата протокола](https://developer.mozilla.org/ru/docs/Web/HTTP/Overview): где заголовки, а где тело.
   * Сродниться со вкладкой Сеть/Network в инспекторе браузера, где можно наблюдать HTTP запросы.
   * [Методы HTTP запросов](https://developer.mozilla.org/ru/docs/Web/HTTP/Methods).  Их назначение и ограничения.
     * Основные [GET](https://developer.mozilla.org/ru/docs/Web/HTTP/Methods/GET), [POST](https://developer.mozilla.org/ru/docs/Web/HTTP/Methods/POST), [HEAD](https://developer.mozilla.org/ru/docs/Web/HTTP/Methods/HEAD)
@@ -111,5 +112,7 @@
     * Влияние заголовков (Content-Length, [Content-Encoding](https://developer.mozilla.org/ru/docs/Web/HTTP/Headers/Content-Encoding), [Transfer-Encoding](https://developer.mozilla.org/ru/docs/Web/HTTP/Headers/Transfer-Encoding)) на тело 
   * `[pro]` HTTP/2.0 протокол
   * `[pro]` WebSocket протокол
+  * HTTP API
+    * [REST API](https://ru.wikipedia.org/wiki/REST)
 * Web сервер [NGINX](https://nginx.org/ru/)
   * Ознакомление с базово конифгурацией nginx `/etc/nginx/nginx.conf`
