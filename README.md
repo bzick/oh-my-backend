@@ -77,14 +77,16 @@
 * Базы данных
   * SQL базы данных MySQL/Postgres/итд
     * Базовый синтаксис запросов SELECT/INSERT/UPDATE/DELETE
-    * Типы колонок таблиц их назначение их различие (на примере MySQL и схожих)
-      * tinyint/smallint/int/bigint
-      * tinytext/text/mediumtext/longtext
-      * set/enum
-      * char/varchar
-      * decimal
-      * double
-      * прочие
+    * Создание и модификация таблиц
+      * Типы колонок таблиц их назначение их различие (на примере MySQL и схожих)
+        * tinyint/smallint/int/bigint
+        * tinytext/text/mediumtext/longtext
+        * set/enum
+        * char/varchar
+        * decimal
+        * double
+        * прочие
+      * Создание и применеие ALTER запросов.
     * Анализ выполнения запросов через EXPLAIN, понимание результатов EXPLAIN.
     * Ведение логов медленных запросов — slow_log.
     * [Понимание работы индексов](https://ruhighload.com/Индексы+в+mysql)
