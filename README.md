@@ -46,6 +46,7 @@
   * [SSH](https://ru.wikipedia.org/wiki/SSH)
     * Генерация собственного ssh-rsa ключа
     * Использование публичного ssh-rsa ключа для входа на удалённую машину (используйте второй контейнер с linux).
+  * Планировщик crond/crontab
 * Общие знания
   * Регулярные выражения. Поиграться регулярными выражениями можно [тут](https://regex101.com/).
   * Хеш функции, в том числе `crc32`, `md5`, `sha1`. Цифровые подписи, соль для подписей, коллизии хешей.
@@ -122,5 +123,5 @@
     * [REST API](https://ru.wikipedia.org/wiki/REST)
     * `[pro]` [GraphQL](https://habr.com/ru/post/326986/)
 * Web сервер [NGINX](https://nginx.org/ru/)
-  * Ознакомление с базовой конифгурацией nginx `/etc/nginx/nginx.conf`
-  * Написание простых локаций 
+  * [Ознакомление с базовыми возможностями](https://nginx.org/ru/docs/beginners_guide.html) 
+  * Написание простых локаций в `/etc/nginx/nginx.conf`
