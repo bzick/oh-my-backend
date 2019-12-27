@@ -54,6 +54,7 @@
     * комит изменений (commit)
     * отправка изменений (push/pull)
     * создание веток и тега (branch/tag)
+    * `[pro]` [упороться полностью git-ом](https://git-scm.com/book/ru/v2)
   * Стуктуры хранения данных
     * Хеш таблицы
     * Очередь и стек
@@ -80,6 +81,7 @@
       * double
       * прочие
     * Анализ выполнения запросов через EXPLAIN, понимание результатов EXPLAIN.
+    * Ведение логов медленных запросов — slow_log.
     * [Понимание работы индексов](https://ruhighload.com/Индексы+в+mysql)
       * Назначение PRIMARY индексов
       * Назначение UNIQUE/обычный индексов
@@ -98,7 +100,7 @@
     * работа со списками
     * работа с хешами
     * работа с набором и сортированным набором
-    * `[pro]` Алгоритм хранения [skip List](https://ru.wikipedia.org/wiki/Список_с_пропусками)
+    * `[pro]` Алгоритм хранения [skip list](https://ru.wikipedia.org/wiki/Список_с_пропусками)
 * Протокол HTTP
   * [Понимание общего формата протокола](https://developer.mozilla.org/ru/docs/Web/HTTP/Overview): где заголовки, а где тело.
   * Сродниться со вкладкой Сеть/Network в инспекторе браузера, где можно наблюдать HTTP запросы.
@@ -109,9 +111,9 @@
     * Основные (частые): 200, 301, 302, 304, 400, 401, 403, 404, 500, 502, 503, 504
     * Другие
   * Заголовки HTTP запроса
-    * [MIME тип](https://developer.mozilla.org/ru/docs/Web/HTTP/Basics_of_HTTP/MIME_types) (тип документа) и заголовок типа [Content-Type](https://developer.mozilla.org/ru/docs/Web/HTTP/%D0%97%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B8/Content-Type). 
+    * [MIME тип](https://developer.mozilla.org/ru/docs/Web/HTTP/Basics_of_HTTP/MIME_types) (тип документа) и заголовок типа [Content-Type](https://developer.mozilla.org/ru/docs/Web/HTTP/Заголовки/Content-Type). 
     * Системные заголовоки Host, Content-Length
-    * [Кеширование HTTP](https://developer.mozilla.org/ru/docs/Web/HTTP/%D0%9A%D1%8D%D1%88%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5) и изучение HTTP заголовков упарвления кешом Cache-Control, Expires, Vary, ETag, Last-Modified
+    * [Кеширование HTTP](https://developer.mozilla.org/ru/docs/Web/HTTP/Кэширование) и изучение HTTP заголовков упарвления кешом Cache-Control, Expires, Vary, ETag, Last-Modified
   * [Куки](https://developer.mozilla.org/ru/docs/Web/HTTP/%D0%9A%D1%83%D0%BA%D0%B8)
   * Различия версий протокола HTTP/1.0, HTTP/1.1 
   * Тело HTTP запроса
@@ -125,5 +127,16 @@
     * `[pro]` [GraphQL](https://habr.com/ru/post/326986/)
 * Web сервер [NGINX](https://nginx.org/ru/)
   * [Ознакомление с базовыми возможностями](https://nginx.org/ru/docs/beginners_guide.html) 
-  * Написание простых локаций в `/etc/nginx/nginx.conf`
-* Почта
+  * Написание простых локаций в `/etc/nginx/nginx.conf` раздачи файлов
+  * HTTP, FastCGI проксирование
+* **Тут должен быть ваш язык программирования**
+  * Различие процессов (созданные через fork) от тредов (thread)
+  * Треды 
+    * Race Condition
+    * Блокировки Mutex и Семафоры
+  * Битовые операции: not, and, or, xor, сдвиг влево, сдвиг вправо
+  * Кеширование данных
+    * Частые алгоритмы кеша [LRU](https://ru.wikipedia.org/wiki/Алгоритмы_кэширования#Least_recently_used_(Вытеснение_давно_неиспользуемых)), LFU
+    * `[pro]` [Иные алгоритмы кеширования](https://ru.wikipedia.org/wiki/Алгоритмы_кэширования)
+* Электронная почта
+* Полнотексовый поиск через ElasticSearch
