@@ -109,7 +109,8 @@
     * Основные (частые): 200, 301, 302, 304, 400, 401, 403, 404, 500, 502, 503, 504
     * Другие
   * Заголовки HTTP запроса
-    * Системные заголовоки Host, Content-Type, Content-Length
+    * [MIME тип](https://developer.mozilla.org/ru/docs/Web/HTTP/Basics_of_HTTP/MIME_types) (тип документа) и заголовок типа [Content-Type](https://developer.mozilla.org/ru/docs/Web/HTTP/%D0%97%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B8/Content-Type). 
+    * Системные заголовоки Host, Content-Length
     * [Кеширование HTTP](https://developer.mozilla.org/ru/docs/Web/HTTP/%D0%9A%D1%8D%D1%88%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5) и изучение HTTP заголовков упарвления кешом Cache-Control, Expires, Vary, ETag, Last-Modified
   * [Куки](https://developer.mozilla.org/ru/docs/Web/HTTP/%D0%9A%D1%83%D0%BA%D0%B8)
   * Различия версий протокола HTTP/1.0, HTTP/1.1 
@@ -125,3 +126,4 @@
 * Web сервер [NGINX](https://nginx.org/ru/)
   * [Ознакомление с базовыми возможностями](https://nginx.org/ru/docs/beginners_guide.html) 
   * Написание простых локаций в `/etc/nginx/nginx.conf`
+* Почта
