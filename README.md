@@ -59,7 +59,7 @@
     * Хеш таблицы
     * Очередь и стек
     * [Связный список](https://ru.wikipedia.org/wiki/Связный_список) и [двусвязный список](https://ru.wikipedia.org/wiki/Связный_список#Двусвязный_список_(двунаправленный_связный_список))
-  * Форматы хранения данных
+  * Форматы хранения и передачи данных
     * JSON
     * YAML
     * XML
@@ -67,6 +67,11 @@
   * Базовое понимание работы сети, протокл TCP и протокл UDP.
   * IPv4, IPv6
   * DNS
+    * [Как работает резолвинг доменов](https://temoto.github.io/a/kak-rabotayut-domeny.html)
+    * [DNS записи](https://ru.wikipedia.org/wiki/Типы_ресурсных_записей_DNS)
+      * Основные MX, CNAME, NS, A, AAAA, TXT
+      * `[pro]` Прочие записи
+    * Консольные команды работы с доменами: whois, dig, host
   * Трассировки маршрутов.
   * `[pro]` анализ трафика через tcpdump + wireshark
 * Базы данных
@@ -93,8 +98,12 @@
        * Фильтрация после группировки
        * Функции работы с группами MAX/MIN/AVG/итд
      * Понимание и назначение внешних ключей (`foreign key`)
-     * 
+     * `[pro]` Триггеры на INSERT/UPDATE/DELETE
   * noSQL базы данных MongoDB/DocumentDB
+    * Типы колонок таблиц их назначение их различие
+    * Анализ выполнения запросов через `explain()`, понимание его результатов.
+    * Понимание работы индексов (аналогично SQL индексам с небольшими отличиями)
+    * `[pro]` Аггрегации
   * Redis
     * базовая работа с ключами
     * работа со списками
@@ -122,7 +131,7 @@
     * Влияние заголовков (Content-Length, [Content-Encoding](https://developer.mozilla.org/ru/docs/Web/HTTP/Headers/Content-Encoding), [Transfer-Encoding](https://developer.mozilla.org/ru/docs/Web/HTTP/Headers/Transfer-Encoding)) на тело 
   * `[pro]` HTTP/2.0 протокол
   * `[pro]` WebSocket протокол
-  * HTTP API
+  * HTTP API форматы
     * [REST API](https://ru.wikipedia.org/wiki/REST)
     * `[pro]` [GraphQL](https://habr.com/ru/post/326986/)
 * Web сервер [NGINX](https://nginx.org/ru/)
@@ -130,13 +139,19 @@
   * Написание простых локаций в `/etc/nginx/nginx.conf` раздачи файлов
   * HTTP, FastCGI проксирование
 * **Тут должен быть ваш язык программирования**
-  * Различие процессов (созданные через fork) от тредов (thread)
-  * Треды 
-    * Race Condition
-    * Блокировки Mutex и Семафоры
+  * Что такое интерпертатор, компилятор, JIT, оп-код, байт-код. Что из этого использует ваш язык?
+  * Распараллеливание
+    * Различие процессов (созданные через fork) от тредов (thread)
+    * Треды 
+      * Race Condition
+      * Блокировки Mutex и Семафоры
+    * Процессы
+      * Разделяемая память (Shared memory)
+      * Межпроцессное взаимодействие (IPC)
   * Битовые операции: not, and, or, xor, сдвиг влево, сдвиг вправо
   * Кеширование данных
     * Частые алгоритмы кеша [LRU](https://ru.wikipedia.org/wiki/Алгоритмы_кэширования#Least_recently_used_(Вытеснение_давно_неиспользуемых)), LFU
     * `[pro]` [Иные алгоритмы кеширования](https://ru.wikipedia.org/wiki/Алгоритмы_кэширования)
+    * Прогревание кеша, инвалидация кеша
 * Электронная почта
 * Полнотексовый поиск через ElasticSearch
