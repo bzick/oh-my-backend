@@ -114,5 +114,6 @@
   * `[pro]` WebSocket протокол
   * HTTP API
     * [REST API](https://ru.wikipedia.org/wiki/REST)
+    * `[pro]` [GraphQL](https://habr.com/ru/post/326986/)
 * Web сервер [NGINX](https://nginx.org/ru/)
   * Ознакомление с базово конифгурацией nginx `/etc/nginx/nginx.conf`
