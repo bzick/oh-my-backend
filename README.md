@@ -101,6 +101,9 @@
        * Функции работы с группами MAX/MIN/AVG/итд
      * Понимание и назначение внешних ключей (`foreign key`)
      * `[pro]` Триггеры на INSERT/UPDATE/DELETE
+     * Хранение деревьев 
+       * parent-child
+       * nested sets
   * noSQL базы данных MongoDB/DocumentDB
     * Типы колонок таблиц их назначение их различие
     * Анализ выполнения запросов через `explain()`, понимание его результатов.
@@ -131,6 +134,7 @@
     * Формат передачи `application/x-www-form-urlencoded`
     * Формат передачи [multipart/form-data](https://ru.wikipedia.org/wiki/Multipart/form-data)
     * Влияние заголовков (Content-Length, [Content-Encoding](https://developer.mozilla.org/ru/docs/Web/HTTP/Headers/Content-Encoding), [Transfer-Encoding](https://developer.mozilla.org/ru/docs/Web/HTTP/Headers/Transfer-Encoding)) на тело 
+  * Консольные команды HTTP запросов `curl`, `wget`
   * `[pro]` HTTP/2.0 протокол
   * `[pro]` WebSocket протокол
   * HTTP API форматы
