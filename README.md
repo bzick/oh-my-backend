@@ -53,7 +53,7 @@ Oh My BackEnd
   * Понятие `процесс`
     * Родительский процесс, дочерний процесс.
     * Мастер-воркер процессы, демон (daemon)
-    * Зомби процесс. Откуда беруться, как с ними бороться. 
+    * Зомби процесс. Откуда берутся, как с ними бороться. 
     * [Отправка сигналов процессам](https://ru.wikipedia.org/wiki/Сигнал_(Unix))
       * Изучение команды `kill`, `pkill`, `killall`
       * Назначение сигналов [SIGKILL](https://ru.wikipedia.org/wiki/SIGKILL), [SIGTERM](https://ru.wikipedia.org/wiki/SIGTERM), [SIGINT](https://ru.wikipedia.org/wiki/SIGTERM), [SIGHUP](https://ru.wikipedia.org/wiki/SIGHUP), [SIGSEGV](https://ru.wikipedia.org/wiki/SIGSEGV)
