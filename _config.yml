@@ -1,1 +1,18 @@
-theme: jekyll-theme-midnight
+remote_theme: "mmistakes/so-simple-theme@3.2.0"
+
+locale: ru-RU
+title: "Oh My BackEnd"
+description: "Что должен уметь бекенд разработчик"
+google_fonts:
+  - name: "Source Sans Pro"
+    weights: "400,400i,700,700i"
+  - name: "Lora"
+    weights: "400,400i,700,700i"
+markdown: kramdown
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "post"
