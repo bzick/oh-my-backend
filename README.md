@@ -3,7 +3,7 @@ Oh My BackEnd
 
 Документ не несёт какого-либо строго характера, а содержит список базовых навыков, которые **часто** требуются backend разработчику web-приложений.
 
-Метка :zap: означает что этот пункт для более глубокого и продвинутого изучения темы и можно пропустить если хочется. 
+Метка ⚡ означает что этот пункт для более глубокого и продвинутого изучения темы и можно пропустить. 
 
 Каждый пункт подразумевает что разработчик знает что это, для чего и как с этим работать. Как это работает "внутри" будет дополнительным бустом в изучении темы, да и вцелом сказывается положительно в понимании темы. Если разбираться как работает "внутри" каждый пункт то потребуется очень много времени на изучение, как следствие изучайте по желанию и необходимости.
 
@@ -22,6 +22,7 @@ Oh My BackEnd
 * **[Этап 8. Тут должен быть ваш язык программирования](#этап-8-тут-должен-быть-ваш-язык-программирования)**
 * [Этап 9. Электронная почта](#этап-9-электронная-почта)
 * [Этап 10. Полнотексовый поиск через ElasticSearch](#этап-10-полнотексовый-поиск-через-elasticsearch)
+* [Этап 11. Метрики](#этап-11-метрики)
 
 # Этап 1. Виртуализация docker
 
@@ -31,7 +32,7 @@ Oh My BackEnd
 * установить [docker](https://www.docker.com/products/docker-desktop)
 * запустить контейнер с Linux Ubuntu, последней LTS версией. Запустить bash контейнера.
 * установить удобное приложение для урпавления образами и контейнерами [Kitematic](https://kitematic.com/), [Portainer](https://hub.docker.com/r/portainer/portainer/) и тд. Либо сродниться с консольными командами docker
-* :zap: docker compose для поднятия кластера контейнеров
+* ⚡ docker compose для поднятия кластера контейнеров
 
 # Этап 2. Linux
 
@@ -90,7 +91,7 @@ Oh My BackEnd
     * комит изменений (commit)
     * отправка изменений (push/pull)
     * создание веток и тега (branch/tag)
-    * :zap: [упороться полностью git-ом](https://git-scm.com/book/ru/v2)
+    * ⚡ [упороться полностью git-ом](https://git-scm.com/book/ru/v2)
   * Стуктуры хранения данных
     * Хеш таблицы
     * Очередь и стек
@@ -108,19 +109,19 @@ Oh My BackEnd
   * Базовое понимание работы сети, протокл TCP и протокл UDP.
     * TCP пакет, UDP пакет
     * TCP: 
-      * :zap: Флаги ACK, SYN, FIN и прочие 
+      * ⚡ Флаги ACK, SYN, FIN и прочие 
       * Window size
-    * :zap: Сетевые издержки: Pocket loss, Reordering, Jitter, Round-Trip Time (RTT aka ping aka лаг)
+    * ⚡ Сетевые издержки: Pocket loss, Reordering, Jitter, Round-Trip Time (RTT aka ping aka лаг)
     * [проблемы TCP](https://www.youtube.com/watch?v=aXYJlizk3CQ)
   * IPv4, IPv6
   * DNS
     * [Как работает резолвинг доменов](https://temoto.github.io/a/kak-rabotayut-domeny.html)
     * [DNS записи](https://ru.wikipedia.org/wiki/Типы_ресурсных_записей_DNS)
       * Основные MX, CNAME, NS, A, AAAA, TXT
-      * :zap: Прочие записи
+      * ⚡ Прочие записи
     * Консольные команды работы с доменами: whois, dig, host
   * Трассировки маршрутов.
-  * :zap: анализ трафика через tcpdump + wireshark
+  * ⚡ анализ трафика через tcpdump + wireshark
 
 # Этап 5. Базы данных
 
@@ -145,7 +146,7 @@ Oh My BackEnd
       * Назначение UNIQUE/обычный индексов
       * Составные индексы.
         * Понимание какие поля в какой последовательности добавлять в индекс при фиьтрации и сортировке одновременно.
-      * :zap: Алгоритм построения индексов `BTREE`
+      * ⚡ Алгоритм построения индексов `BTREE`
      * Объединение таблиц `LEFT JOIN`, `RIGHT JOIN`, `INNER JOIN`, `OUTER JOIN`, `JOIN`
      * Группировка данных через `GROUP BY`
        * Фильтрация после группировки
@@ -154,7 +155,7 @@ Oh My BackEnd
      * Транзакции
        * Уровни изоляций транзакций
        * Deadlock и как его не допускать
-     * :zap: Триггеры на `INSERT`/`UPDATE`/`DELETE`
+     * ⚡ Триггеры на `INSERT`/`UPDATE`/`DELETE`
      * Хранение деревьев 
        * parent-child
        * nested sets
@@ -162,13 +163,14 @@ Oh My BackEnd
     * Типы колонок таблиц их назначение их различие
     * Анализ выполнения запросов через `explain()`, понимание его результатов.
     * Понимание работы индексов (аналогично SQL индексам с небольшими отличиями)
-    * :zap: Аггрегации
+    * Вложенные объекты, массивы.
+    * ⚡ Аггрегации
   * Redis
     * базовая работа с ключами
     * работа со списками
     * работа с хешами
     * работа с набором и сортированным набором
-    * :zap: Структура хранения данных [skip list](https://ru.wikipedia.org/wiki/Список_с_пропусками)
+    * ⚡ Структура хранения данных [skip list](https://ru.wikipedia.org/wiki/Список_с_пропусками)
 
 # Этап 6. Протокол HTTP
 
@@ -195,19 +197,19 @@ Oh My BackEnd
     * Формат передачи [multipart/form-data](https://ru.wikipedia.org/wiki/Multipart/form-data)
     * Влияние заголовков (Content-Length, [Content-Encoding](https://developer.mozilla.org/ru/docs/Web/HTTP/Headers/Content-Encoding), [Transfer-Encoding](https://developer.mozilla.org/ru/docs/Web/HTTP/Headers/Transfer-Encoding)) на тело 
   * Консольные команды HTTP запросов `curl`, `wget`
-  * :zap: HTTP/2.0 протокол
-  * :zap: WebSocket протокол
+  * ⚡ HTTP/2.0 протокол и HTTP/3.0
+  * ⚡ WebSocket протокол
   * HTTP API форматы
     * [REST API](https://ru.wikipedia.org/wiki/REST)
     * RPC
-    * :zap: [GraphQL](https://habr.com/ru/post/326986/)
+    * ⚡ [GraphQL](https://habr.com/ru/post/326986/)
 
 # Этап 7. Web сервер NGINX
 
 Самым распространённым Web-сервером является NGINX. Вероятность натолкнуться на него во время разработки web-приложения - велика. Поэтому с ним надо познакомится. Установите в контейнера NGINX и познакомтесь с ним.
 
   * [Ознакомление с базовыми возможностями](https://nginx.org/ru/docs/beginners_guide.html) 
-  * :zap: [Масштабируемая конфигурация nginx](https://www.youtube.com/watch?v=jf3wIN-FwW4)
+  * ⚡ [Масштабируемая конфигурация nginx](https://www.youtube.com/watch?v=jf3wIN-FwW4)
   * Написание простых локаций в `/etc/nginx/nginx.conf` раздачи файлов
   * HTTP, FastCGI проксирование
 
@@ -227,6 +229,7 @@ Oh My BackEnd
       * Ошибка сегментирования (и ее связь с сигналом SIGSEGV)
   * Распараллеливание
     * Различие процессов (созданные через [fork](https://ru.wikipedia.org/wiki/Fork)) от потоков (thread)
+      * Поведение дескрипторов до и после fork
     * Потоки (threads) 
       * Зелёные потоки (Green threads)
       * Race Condition
@@ -238,7 +241,7 @@ Oh My BackEnd
   * Битовые операции: not, and, or, xor, сдвиг влево, сдвиг вправо
   * Кеширование данных
     * Частые алгоритмы кеша [LRU](https://ru.wikipedia.org/wiki/Алгоритмы_кэширования#Least_recently_used_(Вытеснение_давно_неиспользуемых)), LFU
-    * :zap: [Иные алгоритмы кеширования](https://ru.wikipedia.org/wiki/Алгоритмы_кэширования)
+    * ⚡ [Иные алгоритмы кеширования](https://ru.wikipedia.org/wiki/Алгоритмы_кэширования)
     * Прогревание кеша, инвалидация кеша
   * Сессии (пользователей)
     * Как инициировать
@@ -279,8 +282,33 @@ Oh My BackEnd
   * Запросы добавления/обновления документов, включая bulk
 * Подключение морфологий
 * mapping и их шаблоны
-* :zap: аггрегации и их кешировани
-* :zap: шардинг
+* ⚡ аггрегации и их кешировани
+* ⚡ шардинг
 * работа с nested-документами
-* :zap: [ELK](https://www.elastic.co/what-is/elk-stack)
+* ⚡ [ELK](https://www.elastic.co/what-is/elk-stack)
+
+# Этап 11. Метрики 
+
+Любое приложение должно уметь генерировать _полезные_ метрики для система сбора и анализа метрик. По факту сейчас среди opensource акуален [Prometheus](https://prometheus.io/) для сбора и анализа метрик и [Grafana](https://grafana.com/) для их отображения и алертов.
+
+* Prometheus
+  * Типы метрик
+     * count
+     * gauge
+     * histogram
+     * summary
+  * Варианты отправки метрик в Prometheus: push и pull
+  * Запросы (лучше и наглядней делать из Graphana)
+    * [Синтаксис](https://prometheus.io/docs/prometheus/latest/querying/basics/)
+      * Лейблы
+      * Векторы
+      * Интервалы
+      * Оперторы
+    * [Функции](https://prometheus.io/docs/prometheus/latest/querying/functions/), особенно:
+      * rate
+      * irate
+* Graphana 
+  * Создание дашбордов
+  * Создание графиков
+  * Настройка алертов
 
