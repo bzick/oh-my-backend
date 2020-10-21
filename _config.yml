@@ -10,6 +10,10 @@ google_fonts:
     weights: "400,400i,700,700i"
 markdown: kramdown
 
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
 defaults:
   -
     scope:
