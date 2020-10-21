@@ -43,8 +43,8 @@ Oh My BackEnd
     * Базовый синтаксис bash
       * Управляющи операторы `for` и `if`
       * Логические `;`, `&&`, `||`
-    * Базовые команды `cd`, `ls`, `find`, `cat`, `top`/`htop`
-    * Команды обработки данных `tail`, `head`, `sed`, `grep`, `awk`
+    * Базовые команды `cd`, `ls`, `find`, `cat`, `top`/`htop`, `cp`, `mv`.
+    * Команды обработки данных `tail`, `head`, `sed`, `grep`, `awk`.
     * Команды работы с архивами `gzip`, `gunzip`, `tar`, `zcat`, `zless`, `zgrep`
     * Консольные редакторы `vim`/`vi`, `nano`. Откыть файл, внести изменения, сохранить.
     * Консольный просмоторщик `less`. Открыть, найти слово, закрыть.
@@ -58,12 +58,12 @@ Oh My BackEnd
     * [Отправка сигналов процессам](https://ru.wikipedia.org/wiki/Сигнал_(Unix))
       * Изучение команды `kill`, `pkill`, `killall`
       * Назначение сигналов [SIGKILL](https://ru.wikipedia.org/wiki/SIGKILL), [SIGTERM](https://ru.wikipedia.org/wiki/SIGTERM), [SIGINT](https://ru.wikipedia.org/wiki/SIGTERM), [SIGHUP](https://ru.wikipedia.org/wiki/SIGHUP), [SIGSEGV](https://ru.wikipedia.org/wiki/SIGSEGV)
-    * Команада анализа работы процесса через strace
+    * Команада анализа работы процесса через `strace`
   * Изучение понятия `дескриптор`
-    * Стандартные дескрипторы STDIN, STDOUT, STDERR
+    * Стандартные дескрипторы `STDIN`, `STDOUT`, `STDERR` и их нумерация в `shell`-ах
     * Ограничение на дескрипторы
     * Потоки, сокеты и unix-сокеты
-    * Команада анализа открытых дескрипторов у процесса через lsof
+    * Команада анализа открытых дескрипторов у процесса через `lsof`
   * Права и доступы файловой системы
     * Супер пользователь, команды `su` и `sudo`
     * Флаги доступов `x`, `r`, `w` (что они значат для файлов и директорий)
@@ -75,6 +75,9 @@ Oh My BackEnd
   * [SSH](https://ru.wikipedia.org/wiki/SSH)
     * Генерация собственного ssh-rsa ключа
     * Использование публичного ssh-rsa ключа для входа на удалённую машину (используйте второй контейнер с linux).
+  * Перенос контента (помимо `cp` и `mv`)
+    * `scp`
+    * `rsync`
   * Планировщик задач `crond`/`crontab`, `at`
 
 # Этап 3. Общие знания
