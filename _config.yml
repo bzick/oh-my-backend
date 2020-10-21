@@ -16,3 +16,8 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: "page"
+
+footer_links:
+  - title: GitHub
+    url: https://github.com/bzick/oh-my-backend
+    icon: fab fa-github-square
