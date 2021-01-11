@@ -37,7 +37,7 @@ Oh My BackEnd
 
 * установить [docker](https://www.docker.com/products/docker-desktop)
 * запустить контейнер с Linux Ubuntu, последней LTS версией. Запустить bash контейнера.
-* установить удобное приложение для урпавления образами и контейнерами [Kitematic](https://kitematic.com/), [Portainer](https://hub.docker.com/r/portainer/portainer/) и тд. Либо сродниться с консольными командами docker
+* установить удобное приложение для урпавления образами и контейнерами [Kitematic](https://kitematic.com/), [Portainer](https://hub.docker.com/r/portainer/portainer/) и тд. Либо сродниться с консольными командами docker. На некоторых OC десктопный docker уже имеет свой dashboard для управлениея образами и контейнерами. 
 * ⚡ docker compose для поднятия кластера контейнеров
 
 # Этап 2. Linux
