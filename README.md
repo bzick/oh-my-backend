@@ -233,16 +233,16 @@ Oh My BackEnd
     * ACL
     * RBAC
   * Аутентификация
-    * Basic
-    * OAuth
+    * [Basic](https://developer.mozilla.org/en-US/docs/Web/HTTP/Authentication)
+    * [OAuth2](https://www.digitalocean.com/community/tutorials/oauth-2-ru)
     * Ldap
   * Виды атак
     * Фишинг сайта
     * Инъекции (включая SQL-иньекции)
     * XSS акака
     * HTTP DDOS
-    * Медленный POST/PUT/другой запрос с телом запроса
-    * ⚡ SYN flood
+    * Медленный запрос
+    * ⚡ SYN flood (потребуется знанания TCP)
 
 
 # Этап 8. Тут должен быть ваш язык программирования
@@ -330,7 +330,7 @@ Oh My BackEnd
      * gauge
      * histogram
      * summary
-  * Варианты отправки метрик в Prometheus: push и pull
+  * Варианты отправки метрик: push и pull
   * Запросы (лучше и наглядней делать из Graphana)
     * [Синтаксис](https://prometheus.io/docs/prometheus/latest/querying/basics/)
       * Лейблы
