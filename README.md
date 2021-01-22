@@ -135,7 +135,7 @@ Oh My BackEnd
     * TCP: 
       * ⚡ Флаги ACK, SYN, FIN и прочие 
       * Буферы (window size)
-    * ⚡ Сетевые издержки: Pocket loss, Reordering, Jitter, Round-Trip Time (RTT aka ping aka лаг)
+    * ⚡ Сетевые издержки: Packet loss, Reordering, Jitter, Round-Trip Time (RTT aka лаг)
     * [проблемы TCP](https://www.youtube.com/watch?v=aXYJlizk3CQ)
   * IPv4, IPv6
   * DNS
