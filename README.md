@@ -278,7 +278,7 @@ Oh My BackEnd
     * Различие процессов (созданные через [fork](https://ru.wikipedia.org/wiki/Fork)) от потоков (thread)
       * Поведение дескрипторов до и после fork
     * Потоки (threads) 
-      * Истинные потоки (pthreads, poxix-threads)
+      * Истинные потоки (pthreads, posix-threads)
       * Зелёные потоки (Green threads)
       * Блокировки Mutex и Семафоры
     * Процессы
