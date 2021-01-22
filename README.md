@@ -249,8 +249,8 @@ Oh My BackEnd
     * XSS атака
     * DoS/DDoS
       * HTTP-флуд и ping-флуд
-      * Smurf-атака (ICMP-флуд)
-      * Атака Fraggle (UDP-флуд)
+      * ⚡ Smurf-атака (ICMP-флуд)
+      * ⚡ Атака Fraggle (UDP-флуд)
       * ⚡ SYN flood (потребуются знанания TCP)
       * Медленный запрос
     * Атака посредника (Man In The Middle, MITM)
