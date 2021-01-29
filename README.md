@@ -93,6 +93,9 @@ Oh My BackEnd
 * Логи. Для чего и как посмотреть.
   * `dmesg` (driver messages) — важные сообщения от компонентов linux, включая от OOM-киллера.
   * `syslog` — системный лог
+* Проблемы в linux и последствия
+  * Kernel panic
+  * core dump
 
 # Этап 3. Общие знания
 
@@ -197,6 +200,10 @@ Oh My BackEnd
     * [работа с хешами](https://redis.io/commands#hash)
     * [работа с набором](https://redis.io/commands#set) и [сортированным набором](https://redis.io/commands#sorted_set)
     * ⚡ Структура хранения данных [skip list](https://ru.wikipedia.org/wiki/Список_с_пропусками)
+  * Проблемы в базах данных
+    * Deadlock
+    * Переполнение числовых полей (в том числе autoincrement)
+    * Full scan
 
 # Этап 6. Протокол HTTP
 
