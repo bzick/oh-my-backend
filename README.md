@@ -79,7 +79,8 @@ Oh My BackEnd
     > Это основной рычаг воздействия на процесс сторонними приложениями (системными или вашими).
     * Изучение команды `kill`, `pkill`, `killall`
     * Назначение сигналов [SIGKILL](https://ru.wikipedia.org/wiki/SIGKILL), [SIGTERM](https://ru.wikipedia.org/wiki/SIGTERM), [SIGINT](https://ru.wikipedia.org/wiki/SIGTERM), [SIGHUP](https://ru.wikipedia.org/wiki/SIGHUP), [SIGSEGV](https://ru.wikipedia.org/wiki/SIGSEGV)
-  * Команада анализа работы процесса через `strace`.
+  * Системный вызов (syscall).
+  * Команада анализа системных вызов процесса через `strace`.
 * Изучение понятия `дескриптор`
   * Стандартные дескрипторы `STDIN`, `STDOUT`, `STDERR` и их нумерация в `shell`-ах
   * Ограничение на дескрипторы
