@@ -164,22 +164,28 @@ Oh My BackEnd
 
 Сеть в разработке самая важная и, часто, мало заметная часть.
 
-  * Базовое понимание работы сети, протокл TCP и протокл UDP.
-    * TCP пакет, UDP пакет
-    * TCP: 
-      * ⚡ Флаги ACK, SYN, FIN и прочие 
-      * Буферы (window size)
-    * ⚡ Сетевые издержки: Packet loss, Reordering, Jitter, Round-Trip Time (RTT aka лаг)
+* Базовое понимание работы сети. 
+  * Протокол TCP
+    * ⚡ TCP пакет
+    * Флаги ACK, SYN, FIN и прочие 
+    * Буферы (window size)
     * [проблемы TCP](https://www.youtube.com/watch?v=aXYJlizk3CQ)
-  * IPv4, IPv6
-  * DNS
-    * [Как работает резолвинг доменов](https://temoto.github.io/a/kak-rabotayut-domeny.html)
-    * [DNS записи](https://ru.wikipedia.org/wiki/Типы_ресурсных_записей_DNS)
-      * Основные MX, CNAME, NS, A, AAAA, TXT
-      * ⚡ Прочие записи
-    * Консольные команды работы с доменами: whois, dig, host
-  * Трассировки маршрутов.
-  * ⚡ анализ трафика через tcpdump + wireshark
+  * Протокол UDP
+    * ⚡ UDP пакет
+* Проблемы сети
+  * Packet loss
+  * Reordering
+  * Jitter
+  * Round-Trip Time (RTT aka лаг)
+* IPv4, IPv6
+* DNS
+  * [Как работает резолвинг доменов](https://temoto.github.io/a/kak-rabotayut-domeny.html)
+  * [DNS записи](https://ru.wikipedia.org/wiki/Типы_ресурсных_записей_DNS)
+    * Основные MX, CNAME, NS, A, AAAA, TXT
+    * ⚡ Прочие записи
+  * Консольные команды работы с доменами: whois, dig, host
+* Трассировки маршрутов.
+* ⚡ анализ трафика через tcpdump + wireshark
 
 # Этап 5. Базы данных
 
