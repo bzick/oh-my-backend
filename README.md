@@ -18,6 +18,7 @@ Oh My BackEnd
 Каждый пункт делится на градации <kbd>junior</kbd>, <kbd>middle</kbd>, <kbd>middle+</kbd> (он же <kbd>high middle</kbd>).
 А где <kbd>sinior</kbd>? Что еще за <kbd>high middle</kbd>? Тут применяется [стандартная градация](https://vas3k.ru/blog/team/) скилов и зон ответвенности.
 У всех всё-равно свои разделения на градации, тут они используются что бы помочь определить кучу знаний на то что стоит изучать в первую очередь.
+Метка <kbd>guru ⚡</kbd> означает что этот пункт для более глубокого и продвинутого изучения темы (если у Вас есть время).
 
 Если хотите что-то изменить (пункт, ссылку, опечатку) то создавайте [issue](https://github.com/bzick/oh-my-backend/issues) или делайте [pr](https://github.com/bzick/oh-my-backend/pulls). Если хотите обсудить документ то создавайте обсуждение в [discussions](https://github.com/bzick/oh-my-backend/discussions).
 
@@ -184,7 +185,7 @@ Oh My BackEnd
     * Отправка изменений (push/pull) <kbd>junior</kbd>
     * Создание веток и тега (branch/tag) <kbd>junior</kbd>
     * Слияние веток (merge) <kbd>junior</kbd>
-    * [упороться полностью git-ом](https://git-scm.com/book/ru/v2)  <sub><sup>⚡️</sup></sub>
+    * [упороться полностью git-ом](https://git-scm.com/book/ru/v2)  <kbd>guru ⚡</kbd>
 1. Структуры данных. <kbd>junior</kbd> 
     * Хеш таблицы. <kbd>middle</kbd>
       > Таблицы часто испольюзуются в самих языках программирования (ассоциативные массивы, объекты и тд)
