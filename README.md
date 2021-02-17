@@ -211,7 +211,7 @@ Oh My BackEnd
    * Протокол TCP <kbd>middle</kbd>
      > Вы вряд ли будете читать пакеты TCP. Но полезно знать КАК работает TCP, 
      > это позволит понять почему при идеальных "интернетах" всё равно приложение может лагать по сети.
-     * ⚡ TCP пакет
+     * TCP пакет <kbd>guru ⚡</kbd>
      * Флаги ACK, SYN, FIN и прочие <kbd>middle+</kbd>
      * Буферы (window size) <kbd>middle</kbd>
      * [Проблемы TCP](https://www.youtube.com/watch?v=aXYJlizk3CQ) <kbd>middle+</kbd>
@@ -220,7 +220,7 @@ Oh My BackEnd
    * Протокол UDP. <kbd>middle</kbd>
      > Самый простой сетевой протокол семейства. Требуется понимание его работы. 
      > HTTP/3.0, DNS работает на протоколе UDP, и понимание UDP даст немного понимания в работе HTTP/3.0
-     * ⚡ UDP пакет
+     * UDP пакет <kbd>guru ⚡</kbd>
 1. Проблемы сети. <kbd>junior</kbd>
    > Их, как всегда, много. Но стоит выделить те которые явно влияют на скорость работы сети. 
    > По большей части эти проблемы присущи TCP, но могут появиться и там где эмулируют TCP на другом протоколе (например UDP)
@@ -235,15 +235,15 @@ Oh My BackEnd
    > Зная как работает DNS и управление резолвингом домена в системе можно упростить отладку в некоторых случаях.
    * [Как работает резолвинг доменов](https://temoto.github.io/a/kak-rabotayut-domeny.html) <kbd>junior</kbd>
    * [DNS записи](https://ru.wikipedia.org/wiki/Типы_ресурсных_записей_DNS) <kbd>middle</kbd>
-     * Основные MX, CNAME, NS, A, AAAA, TXT
-     * ⚡ Прочие записи
+     * Основные MX, CNAME, NS, A, AAAA, TXT <kbd>middle</kbd>
+     * Прочие записи <kbd>middle+</kbd>
    * /etc/hosts <kbd>junior</kbd>
      > Самый просто и доступный способ поменять IP любому домену, локально, конечно же.
    * /etc/resolv.conf <kbd>middle+</kbd>
      > Конфигурация как надо резловить домены и где. 
    * Консольные команды работы с доменами: `whois`, `dig`, `host`. <kbd>junior</kbd>
 1. Трассировки маршрутов. <kbd>middle</kbd>
-1. ⚡ анализ трафика через tcpdump + wireshark
+1. Анализ трафика через tcpdump + wireshark <kbd>guru ⚡</kbd>
 
 # Этап 5. Базы данных
 
@@ -279,7 +279,7 @@ Oh My BackEnd
        * Понимание какие поля в какой последовательности добавлять в индекс при фильтрации и/или сортировке. <kbd>middle</kbd>
        * Понимание как строятся деревья индексов у составных индексов. <kbd>middle+</kbd>
      * [Понимание работы индексов](https://ruhighload.com/Индексы+в+mysql) <kbd>middle</kbd>
-     * ⚡ Алгоритм построения индексов `BTREE`.
+     * Алгоритм построения индексов `BTREE`. <kbd>guru ⚡</kbd>
        > Это понимание не сделает ваши запросы быстрее, но даст понятие как ведут себя те или иные данные в индексах.
      * Объединение таблиц `LEFT JOIN`, `RIGHT JOIN`, `INNER JOIN`, `OUTER JOIN`, `JOIN`. <kbd>junior</kbd>
        > Данные всегда "размазаны" по таблицам. Что бы их собрать потребуются эти операторы.
@@ -293,7 +293,7 @@ Oh My BackEnd
        > Что бы провести несколько операций атомарно (как одну операцию) используются транзакции.
          * Уровни изоляций транзакций. <kbd>middle</kbd>
          * Deadlock и как его не допускать. <kbd>middle+</kbd>
-     * ⚡ Триггеры на `INSERT`/`UPDATE`/`DELETE`. <kbd>middle</kbd>
+     * Триггеры на `INSERT`/`UPDATE`/`DELETE`. <kbd>middle</kbd>
        > Не стоит активно использовать триггеры. 
        > Тем не менее они могут оказаться полезными в некоторых отладочных или maintenance случаях.
      * Хранение деревьев. <kbd>junior</kbd>
@@ -370,16 +370,16 @@ Oh My BackEnd
 1. Консольные команды HTTP запросов `curl`, `wget` <kbd>junior</kbd>
    > На серверах (хостах) нет браузеров, чью удобную консоль можно использовать. 
    > Там есть shell и множество утилит, которые умеют в HTTP.
-1. ⚡ HTTP/2.0 протокол и HTTP/3.0 <kbd>middle+</kbd>
-1. ⚡ WebSocket протокол <kbd>middle</kbd>
+1. HTTP/2.0 протокол и HTTP/3.0 <kbd>middle+</kbd>
+1. WebSocket протокол <kbd>middle</kbd>
    > Это расширения HTTP/1.1 и более до механизма обмена данными по одному соединению. 
    > Часто используется для чатов и/или для event-driven модели.
-1. ⚡ WebRTC
+1. WebRTC <kbd>guru ⚡</kbd>
    > Если надо будет организовывать p2p чаты или p2p стриминг то WebRTC как раз для этого.
 1. HTTP API форматы <kbd>junior</kbd>
    * [REST API](https://ru.wikipedia.org/wiki/REST) <kbd>junior</kbd>
    * RPC <kbd>junior</kbd>
-   * ⚡ [GraphQL](https://habr.com/ru/post/326986/) <kbd>middle</kbd>
+   * [GraphQL](https://habr.com/ru/post/326986/) <kbd>middle</kbd>
 1. Web сервера <kbd>junior</kbd>
    * [Nginx](https://nginx.org). <kbd>junior</kbd>
      > Самый распространённый Web-сервер. Вероятность натолкнуться на него во время разработки web-приложения - велика.
@@ -406,8 +406,7 @@ Oh My BackEnd
    * XSS атака <kbd>junior</kbd>
    * DoS/DDoS <kbd>middle</kbd>
      * HTTP-флуд <kbd>middle</kbd>
-     * ⚡ Атака Fraggle (UDP-флуд) <kbd>middle</kbd>
-     * ⚡ SYN flood (потребуются знанания TCP) <kbd>middle+</kbd>
+     * SYN flood (потребуются знанания TCP) <kbd>middle+</kbd>
      * Медленный запрос <kbd>middle</kbd>
    * Атака посредника (Man In The Middle, MITM) <kbd>middle</kbd>
    * Брутфорс (например бурфорс паролей) <kbd>junior</kbd>
@@ -449,7 +448,7 @@ Oh My BackEnd
 1. Битовые операции: `not`, `and`, `or`, `xor`, сдвиг влево, сдвиг вправо <kbd>junior</kbd>
 1. Кеширование данных <kbd>middle</kbd>
     * Частые алгоритмы кеша [LRU](https://ru.wikipedia.org/wiki/Алгоритмы_кэширования#Least_recently_used_(Вытеснение_давно_неиспользуемых)), LFU
-    * ⚡ [Иные алгоритмы кеширования](https://ru.wikipedia.org/wiki/Алгоритмы_кэширования)
+    * [Иные алгоритмы кеширования](https://ru.wikipedia.org/wiki/Алгоритмы_кэширования) <kbd>guru ⚡</kbd>
     * Прогревание кеша, инвалидация кеша
 1. Сессии (пользователей) <kbd>junior</kbd>
     * Как инициировать
@@ -510,25 +509,25 @@ Oh My BackEnd
 и анализа метрик и [Grafana](https://grafana.com/) для их отображения и настройки алертов.
 
 1. Prometheus <kbd>middle</kbd>
-  * Типы метрик <kbd>middle</kbd>
-    * count
-    * gauge
-    * histogram
-    * summary
-  * Варианты отправки метрик: push и pull <kbd>middle</kbd>
-  * Запросы (лучше и наглядней делать из Graphana) <kbd>middle</kbd>
-    * [Синтаксис](https://prometheus.io/docs/prometheus/latest/querying/basics/) <kbd>middle</kbd>
-    * Лейблы
-    * Векторы
-    * Интервалы
-    * Оперторы
-  * [Функции](https://prometheus.io/docs/prometheus/latest/querying/functions/), особенно стоит выделить 2 из них: <kbd>middle</kbd>
-    * rate
-    * irate
+   * Типы метрик <kbd>middle</kbd>
+     * count
+     * gauge
+     * histogram
+     * summary
+   * Варианты отправки метрик: push и pull <kbd>middle</kbd>
+   * Запросы (лучше и наглядней делать из Graphana) <kbd>middle</kbd>
+     * [Синтаксис](https://prometheus.io/docs/prometheus/latest/querying/basics/) <kbd>middle</kbd>
+     * Лейблы
+     * Векторы
+     * Интервалы
+     * Оперторы
+   * [Функции](https://prometheus.io/docs/prometheus/latest/querying/functions/), особенно стоит выделить 2 из них: <kbd>middle</kbd>
+     * rate
+     * irate
 1. Graphana <kbd>middle+</kbd>
-  * Создание дашбордов
-  * Создание графиков
-  * Настройка алертов
+   * Создание дашбордов
+   * Создание графиков
+   * Настройка алертов
 
 # Этап 12. Проектирование
 
