@@ -36,6 +36,7 @@ Oh My BackEnd
 * [Этап 9. Электронная почта](#этап-9-электронная-почта)
 * [Этап 10. Полнотексовый поиск](#этап-10-полнотексовый-поиск)
 * [Этап 11. Метрики](#этап-11-метрики)
+* [Этап 12. Проектирование](#этап-12-проектирование)
 
 # Этап 1. Виртуализация docker
 
@@ -389,28 +390,28 @@ Oh My BackEnd
 
 # Этап 7. Безопасность
 
-* Виды управления доступом <kbd>junior</kbd>
-    * ACL <kbd>junior</kbd>
-    * RBAC <kbd>middle</kbd>
-* Аутентификация <kbd>junior</kbd>
-    * [Basic](https://developer.mozilla.org/en-US/docs/Web/HTTP/Authentication) <kbd>junior</kbd>
-      > Самый простой вид авторизации, не требующий дополнительных вычислительных мощностей (серверов).
-    * [OAuth2](https://www.digitalocean.com/community/tutorials/oauth-2-ru) <kbd>middle</kbd>
-      > Распространенный вид авторизации через посредника, который гарантирует что Вы это Вы.  
-    * Ldap <kbd>middle</kbd>
-      > Данный вид авторизации используется, чаще всего, для авторизации во внутренних сервисах своих сотрудников.
-* Виды атак <kbd>junior</kbd>
-    * Фишинг сайта <kbd>junior</kbd>
-    * Инъекции (например SQL-иньекции) <kbd>junior</kbd>
-    * XSS атака <kbd>junior</kbd>
-    * DoS/DDoS <kbd>middle</kbd>
-        * HTTP-флуд <kbd>middle</kbd>
-        * ⚡ Атака Fraggle (UDP-флуд) <kbd>middle</kbd>
-        * ⚡ SYN flood (потребуются знанания TCP) <kbd>middle+</kbd>
-        * Медленный запрос <kbd>middle</kbd>
-    * Атака посредника (Man In The Middle, MITM) <kbd>middle</kbd>
-    * Брутфорс (например бурфорс паролей) <kbd>junior</kbd>
-    * Спуфинг <kbd>middle</kbd>
+1. Виды управления доступом <kbd>junior</kbd>
+   * ACL <kbd>junior</kbd>
+   * RBAC <kbd>middle</kbd>
+1. Аутентификация <kbd>junior</kbd>
+   * [Basic](https://developer.mozilla.org/en-US/docs/Web/HTTP/Authentication) <kbd>junior</kbd>
+     > Самый простой вид авторизации, не требующий дополнительных вычислительных мощностей (серверов).
+   * [OAuth2](https://www.digitalocean.com/community/tutorials/oauth-2-ru) <kbd>middle</kbd>
+     > Распространенный вид авторизации через посредника, который гарантирует что Вы это Вы.  
+   * Ldap <kbd>middle</kbd>
+     > Данный вид авторизации используется, чаще всего, для авторизации во внутренних сервисах своих сотрудников.
+1. Виды атак <kbd>junior</kbd>
+   * Фишинг сайта <kbd>junior</kbd>
+   * Инъекции (например SQL-иньекции) <kbd>junior</kbd>
+   * XSS атака <kbd>junior</kbd>
+   * DoS/DDoS <kbd>middle</kbd>
+     * HTTP-флуд <kbd>middle</kbd>
+     * ⚡ Атака Fraggle (UDP-флуд) <kbd>middle</kbd>
+     * ⚡ SYN flood (потребуются знанания TCP) <kbd>middle+</kbd>
+     * Медленный запрос <kbd>middle</kbd>
+   * Атака посредника (Man In The Middle, MITM) <kbd>middle</kbd>
+   * Брутфорс (например бурфорс паролей) <kbd>junior</kbd>
+   * Спуфинг <kbd>middle</kbd>
     
 # Этап 8. Тут должен быть ваш язык программирования
 
@@ -471,12 +472,12 @@ Oh My BackEnd
 Работа с эл. письмами неотъемлемая часть web разработки (да и не только).
 Если не придется создавать письма вручную то читать "сырое" письмо придется.
 
-* [Спецификация письма MIME](https://www.opennet.ru/docs/RUS/inet_server/servers_glava2_5.html) <kbd>middle</kbd>
-    * Основные заголовки: `Return-Path`, `Received`, `From`, `To`, `Cc`, `Bcc`, `Reply-To`, `Subject`, `Message-ID` <kbd>middle</kbd>
-    * прочие заголовки <kbd>middle+</kbd>
-    * указание кодироквки <kbd>middle</kbd>
-    * кодирование полей и тела в base64 <kbd>middle</kbd>
-* ⚡ Протоколы передачи почты POP3, IMAP 
+1. [Спецификация письма MIME](https://www.opennet.ru/docs/RUS/inet_server/servers_glava2_5.html) <kbd>middle</kbd>
+   * Основные заголовки: `Return-Path`, `Received`, `From`, `To`, `Cc`, `Bcc`, `Reply-To`, `Subject`, `Message-ID` <kbd>middle</kbd>
+   * прочие заголовки <kbd>middle+</kbd>
+   * указание кодироквки <kbd>middle</kbd>
+   * кодирование полей и тела в base64 <kbd>middle</kbd>
+1. Протоколы передачи почты POP3, IMAP <kbd>guru ⚡</kbd>
 
 # Этап 10. Полнотексовый поиск
 
@@ -484,23 +485,23 @@ Oh My BackEnd
 Для этого используются различные полнотекстовые поисковые движки такие как [ElasticSearch](https://www.elastic.co/), [SphinxSearch](http://sphinxsearch.com/), [ManticoreSearch](https://manticoresearch.com/) и тд.
 Самый распространненый полнотексовый поисковый движок с большим комунити — ElasticSearch.
 
-* Установить Cerebro для работы с ElasticSearch. <kbd>junior</kbd>
-* Индексы <kbd>junior</kbd>
-  * Алиасы <kbd>junior</kbd>
-  * Настройки <kbd>middle+</kbd>
-  * Шаблоны <kbd>middle</kbd>
-  * Mapping <kbd>middle</kbd>
-* Запросы <kbd>junior</kbd>
-    * Запросы поиска <kbd>junior</kbd>
-    * Запросы добавления/обновления/удаления документов <kbd>junior</kbd>
-    * bulk запросы <kbd>middle</kbd>
-      > Запросы на изменение лучше делать пачкой, так называемым bulk-ом.
-    * painless-скриптинг <kbd>middle</kbd>
-      > потребуется что бы точечно обновить некоторые поля у документа или вложенные документы, вместо всего документа
-* Подключение морфологий <kbd>junior</kbd>
-* ⚡ агрегации <kbd>middle</kbd>
-* работа с nested-документами <kbd>middle</kbd>
-* [ELK](https://www.elastic.co/what-is/elk-stack) <kbd>middle+</kbd>
+1. Установить Cerebro для работы с ElasticSearch. <kbd>junior</kbd>
+1. Индексы <kbd>junior</kbd>
+   * Алиасы <kbd>junior</kbd>
+   * Настройки <kbd>middle+</kbd>
+   * Шаблоны <kbd>middle</kbd>
+   * Mapping <kbd>middle</kbd>
+1. Запросы <kbd>junior</kbd>
+   * Запросы поиска <kbd>junior</kbd>
+   * Запросы добавления/обновления/удаления документов <kbd>junior</kbd>
+   * bulk запросы <kbd>middle</kbd>
+     > Запросы на изменение лучше делать пачкой, так называемым bulk-ом.
+   * painless-скриптинг <kbd>middle</kbd>
+     > потребуется что бы точечно обновить некоторые поля у документа или вложенные документы, вместо всего документа
+1. Подключение морфологий <kbd>junior</kbd>
+1. агрегации <kbd>middle</kbd> <kbd>guru ⚡</kbd>
+1. работа с nested-документами <kbd>middle</kbd>
+1. [ELK](https://www.elastic.co/what-is/elk-stack) <kbd>middle+</kbd>
 
 # Этап 11. Метрики
 
@@ -508,26 +509,26 @@ Oh My BackEnd
 По факту сейчас среди opensource акуален [Prometheus](https://prometheus.io/) (или подобные, например, [Victoria Metrics](https://victoriametrics.com/)) для сбора 
 и анализа метрик и [Grafana](https://grafana.com/) для их отображения и настройки алертов.
 
-* Prometheus <kbd>middle</kbd>
-    * Типы метрик <kbd>middle</kbd>
-        * count
-        * gauge
-        * histogram
-        * summary
-    * Варианты отправки метрик: push и pull <kbd>middle</kbd>
-    * Запросы (лучше и наглядней делать из Graphana) <kbd>middle</kbd>
-        * [Синтаксис](https://prometheus.io/docs/prometheus/latest/querying/basics/) <kbd>middle</kbd>
-            * Лейблы
-            * Векторы
-            * Интервалы
-            * Оперторы
-        * [Функции](https://prometheus.io/docs/prometheus/latest/querying/functions/), особенно стоит выделить 2 из них: <kbd>middle</kbd>
-            * rate
-            * irate
-* Graphana <kbd>middle+</kbd>
-    * Создание дашбордов
-    * Создание графиков
-    * Настройка алертов
+1. Prometheus <kbd>middle</kbd>
+  * Типы метрик <kbd>middle</kbd>
+    * count
+    * gauge
+    * histogram
+    * summary
+  * Варианты отправки метрик: push и pull <kbd>middle</kbd>
+  * Запросы (лучше и наглядней делать из Graphana) <kbd>middle</kbd>
+    * [Синтаксис](https://prometheus.io/docs/prometheus/latest/querying/basics/) <kbd>middle</kbd>
+    * Лейблы
+    * Векторы
+    * Интервалы
+    * Оперторы
+  * [Функции](https://prometheus.io/docs/prometheus/latest/querying/functions/), особенно стоит выделить 2 из них: <kbd>middle</kbd>
+    * rate
+    * irate
+1. Graphana <kbd>middle+</kbd>
+  * Создание дашбордов
+  * Создание графиков
+  * Настройка алертов
 
 # Этап 12. Проектирование
 
