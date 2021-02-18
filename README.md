@@ -308,14 +308,14 @@ Oh My BackEnd
      * Хранение деревьев. <kbd>junior</kbd>
        > Не просто сохранить древовидную структуру в реляционной базе. Есть насколько анлгоритом со своими плюсами и минусами. 
        > На самом деле актуально и для других видов баз данных
-       * parent-child <kbd>junior</kbd>
-         > Классический вариант "с parent_id". Простые и "дешевые" на вставку элементов в деревья.
+       * Алгоритм parent-child <kbd>junior</kbd>
+         > Классический вариант "с parent_id" у дочерних элементов. Простые и "дешевые" на вставку элементов в деревья.
          > Но такие деревья затратные "на сборку".
-       * [nested sets](https://devacademy.ru/article/nested-set) <kbd>middle</kbd>
+       * Алгоритм [nested sets](https://devacademy.ru/article/nested-set) <kbd>middle</kbd>
          > Алгоритм позволяет достаточно дёшево собирать деревья с различными модификациями и сегментами.
          > Но затратные на вставку элементов в деревья. 
 1. Документо-ориентированная база данных (часть noSQL баз данных) — MongoDB. <kbd>middle</kbd>
-   > Как правило, под noSQL подразумевают — MongoDB.  
+   > Среди всех noSQL самой популярной является MongoDB.
     * Типы данных в коллекциях их назначение и их различие. <kbd>middle</kbd>
     * Анализ выполнения запросов через `explain()`, понимание его результатов. <kbd>middle</kbd>
     * Понимание работы индексов (аналогично SQL индексам с небольшими отличиями). <kbd>middle</kbd>
@@ -325,7 +325,7 @@ Oh My BackEnd
       * Geospatial индекс <kbd>middle</kbd>
       * Text индекс <kbd>middle</kbd>
     * Вложенные объекты, массивы. <kbd>middle</kbd>
-    * ⚡ Агрегации <kbd>middle+</kbd>
+    * Агрегации <kbd>middle+</kbd>
     * Работа с репликацией. <kbd>middle+</kbd>
     * Работа с кластером MongoDb. <kbd>middle+</kbd>
 1. Redis <kbd>junior</kbd>
@@ -415,9 +415,10 @@ Oh My BackEnd
 Ваше приложение всегда под угрозой, даже если это какая-то home-page. 
 Ботнетам всегда не хватает вычислительных ресурсов. Хакерам - данных. А пользователям - мозгов (без обид).
 
-1. Виды управления доступом <kbd>junior</kbd>
-   * ACL <kbd>junior</kbd>
-   * RBAC <kbd>middle</kbd>
+1. Виды управления доступом <kbd>middle</kbd>
+   * Access Control List (ACL) <kbd>middle</kbd>
+   * [Role-based access control](https://habr.com/ru/company/custis/blog/248649/) (RBAC) <kbd>middle</kbd>
+   * [Attribute-based access control](https://habr.com/ru/company/custis/blog/248649/) (ABAC) <kbd>middle</kbd>
 1. Аутентификация <kbd>junior</kbd>
    * [Basic](https://developer.mozilla.org/en-US/docs/Web/HTTP/Authentication) <kbd>junior</kbd>
      > Самый простой вид авторизации, не требующий дополнительных вычислительных мощностей (серверов).
