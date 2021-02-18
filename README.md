@@ -239,7 +239,7 @@ Oh My BackEnd
    * Round-Trip Time (RTT aka лаг) <kbd>junior</kbd>
 1. IPv4, IPv6.
    > Базовое отличие протоколов надо знать, хотя бы, что б правильно создать колонку IP в базе и обработку в коде.
-1. DNS. <kbd>junior</kbd>
+1. [DNS](https://developer.mozilla.org/ru/docs/Learn/Understanding_domain_names). <kbd>junior</kbd>
    > Ваш код 24/7 будет работать с доменами так как никто не использует чистый IP для соединения куда-либо.
    > Зная как работает DNS и управление резолвингом домена в системе можно упростить отладку в некоторых случаях.
    * [Как работает резолвинг доменов](https://temoto.github.io/a/kak-rabotayut-domeny.html) <kbd>junior</kbd>
@@ -354,13 +354,25 @@ Oh My BackEnd
 1. [Методы HTTP запросов.](https://developer.mozilla.org/ru/docs/Web/HTTP/Methods) Их назначение и ограничения. <kbd>junior</kbd>
    * Основные [GET](https://developer.mozilla.org/ru/docs/Web/HTTP/Methods/GET), [POST](https://developer.mozilla.org/ru/docs/Web/HTTP/Methods/POST), [HEAD](https://developer.mozilla.org/ru/docs/Web/HTTP/Methods/HEAD) <kbd>junior</kbd>
    * Прочие `PUT`, `DELETE` итд. <kbd>middle</kbd>
-1. [Коды HTTP ответов](https://ru.wikipedia.org/wiki/Список_кодов_состояния_HTTP) <kbd>junior</kbd>
+1. [Коды HTTP ответов](https://developer.mozilla.org/ru/docs/Web/HTTP/Status) <kbd>junior</kbd>
    * Принцип разделения коды на группы 100-199, 200-299, 300-399, 400-499, 500-599. <kbd>junior</kbd>
      > Коды создавались и описывались не в хаотичном порядке. Есть чёткое разделение их "сфер влияния".
      > Даже если какой-то сервер придумает свой код ответа, то по группе сможете лучше понять причину такого ответа. 
-   * Основные (частые): 200, 206, 301, 302, 304, 400, 401, 403, 404, 500, 502, 503, 504 <kbd>junior</kbd>
+   * Основные (частые): [200](https://developer.mozilla.org/ru/docs/Web/HTTP/Status/200), 
+     [206](https://developer.mozilla.org/ru/docs/Web/HTTP/Status/206), 
+     [301](https://developer.mozilla.org/ru/docs/Web/HTTP/Status/301), 
+     [302](https://developer.mozilla.org/ru/docs/Web/HTTP/Status/302), 
+     [304](https://developer.mozilla.org/ru/docs/Web/HTTP/Status/304), 
+     [400](https://developer.mozilla.org/ru/docs/Web/HTTP/Status/400), 
+     [401](https://developer.mozilla.org/ru/docs/Web/HTTP/Status/401), 
+     [403](https://developer.mozilla.org/ru/docs/Web/HTTP/Status/403), 
+     [404](https://developer.mozilla.org/ru/docs/Web/HTTP/Status/404), 
+     [500](https://developer.mozilla.org/ru/docs/Web/HTTP/Status/500), 
+     [502](https://developer.mozilla.org/ru/docs/Web/HTTP/Status/502), 
+     [503](https://developer.mozilla.org/ru/docs/Web/HTTP/Status/503), 
+     [504](https://developer.mozilla.org/ru/docs/Web/HTTP/Status/504) <kbd>junior</kbd>
      > Это наиболее частые коды ответов которые гарантировано встретите.
-   * [Другие](https://ru.wikipedia.org/wiki/Список_кодов_состояния_HTTP) <kbd>middle</kbd>
+   * [Другие](https://developer.mozilla.org/ru/docs/Web/HTTP/Status) <kbd>middle</kbd>
 1. Заголовки HTTP запроса <kbd>junior</kbd>
    * [MIME тип](https://developer.mozilla.org/ru/docs/Web/HTTP/Basics_of_HTTP/MIME_types) (тип документа) и заголовок типа [Content-Type](https://developer.mozilla.org/ru/docs/Web/HTTP/Заголовки/Content-Type). <kbd>junior</kbd>
      * Формат передачи `application/x-www-form-urlencoded` <kbd>junior</kbd>
