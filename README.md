@@ -371,7 +371,7 @@ Oh My BackEnd
      [504](https://developer.mozilla.org/ru/docs/Web/HTTP/Status/504) <kbd>junior</kbd>
      > Это наиболее частые коды ответов которые гарантировано встретите.
    * [Другие](https://developer.mozilla.org/ru/docs/Web/HTTP/Status) <kbd>middle</kbd>
-1. Заголовки HTTP запроса <kbd>junior</kbd>
+1. [Заголовки HTTP](https://developer.mozilla.org/ru/docs/Web/HTTP/Заголовки) <kbd>junior</kbd>
    * [MIME тип](https://developer.mozilla.org/ru/docs/Web/HTTP/Basics_of_HTTP/MIME_types) (тип документа) и заголовок типа [Content-Type](https://developer.mozilla.org/ru/docs/Web/HTTP/Заголовки/Content-Type). <kbd>junior</kbd>
      * Формат передачи `application/x-www-form-urlencoded` <kbd>junior</kbd>
      * Формат передачи [multipart/form-data](https://ru.wikipedia.org/wiki/Multipart/form-data) <kbd>middle</kbd>
