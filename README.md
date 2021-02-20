@@ -244,13 +244,13 @@ Oh My BackEnd
    * [DNS записи](https://ru.wikipedia.org/wiki/Типы_ресурсных_записей_DNS) <kbd>middle</kbd>
      * Основные MX, CNAME, NS, A, AAAA, TXT <kbd>middle</kbd>
      * Прочие записи <kbd>middle+</kbd>
-   * /etc/hosts <kbd>junior</kbd>
-     > Самый просто и доступный способ поменять IP любому домену, локально, конечно же.
-   * /etc/resolv.conf <kbd>middle+</kbd>
-     > Конфигурация как надо резловить домены и где. 
+   * Файл `/etc/hosts` <kbd>junior</kbd>
+     > Самый простой и доступный способ поменять IP любому домену, локально, конечно же.
+   * Файл `/etc/resolv.conf` <kbd>middle+</kbd>
+     > Конфигурация как и где надо резловить домены. 
    * Консольные команды работы с доменами: `whois`, `dig`, `host`. <kbd>junior</kbd>
 1. Трассировки маршрутов. <kbd>middle</kbd>
-1. Анализ трафика через tcpdump + wireshark <kbd>guru ⚡</kbd>
+1. Анализ трафика через `tcpdump` + `wireshark` <kbd>guru ⚡</kbd>
 
 # Этап 5. Базы данных
 
