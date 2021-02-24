@@ -256,6 +256,7 @@ Oh My BackEnd
    * Консольные команды работы с доменами: `whois`, `dig`, `host`. <kbd>junior</kbd>
 1. Трассировки маршрутов. <kbd>middle</kbd>
 1. Анализ трафика через `tcpdump` + `wireshark` <kbd>guru ⚡</kbd>
+1. [Упороться сетью полностью](https://hpbn.co/) <kbd>guru ⚡</kbd>
 
 # Этап 5. Базы данных
 
@@ -437,6 +438,7 @@ Oh My BackEnd
    * DoS/DDoS <kbd>middle</kbd>
      * HTTP-флуд <kbd>middle</kbd>
      * SYN flood (потребуются знанания TCP) <kbd>middle+</kbd>
+     * UDP flood (UDP амплификация) <kbd>middle+</kbd>
      * Медленный запрос <kbd>middle</kbd>
    * Атака посредника (Man In The Middle, MITM) <kbd>middle</kbd>
    * Брутфорс (например бурфорс паролей) <kbd>junior</kbd>
