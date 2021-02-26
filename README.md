@@ -110,7 +110,7 @@ Oh My BackEnd
       > Не редкая проблема приложений когда оно упирается в лимит открытых дескрипторов.
     * Команада анализа открытых дескрипторов у процесса через `lsof`. <kbd>middle+</kbd>
       > Для отладки приложения всегда надо знать с чем ведёт общение приложение (отлично работает в паре с `strace`, сопоставляя номера дескрипторов).
-1. [Пользотвали](https://gitlab.com/doatta/gnu-linux-rhcsa/-/blob/master/19.%20Пользователи.md) <kbd>junior</kbd>
+1. [Пользователи](https://gitlab.com/doatta/gnu-linux-rhcsa/-/blob/master/19.%20Пользователи.md) <kbd>junior</kbd>
    * Пользователь `root`. <kbd>junior</kbd>
    * Супер пользователь, команды [su](https://gitlab.com/doatta/gnu-linux-rhcsa/-/blob/master/17.%20su.md) и [sudo](https://gitlab.com/doatta/gnu-linux-rhcsa/-/blob/master/18.%20sudo.md). <kbd>junior</kbd>
      > Никто не даст вам root на проде, но вполне можете иметь "привилегированного" пользователя, который умеет в `sudo`.
