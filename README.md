@@ -567,7 +567,7 @@ Oh My BackEnd
    * Схема MVVM
 1. GRASP (General Responsibility Assignment Software Patterns)
 1. Принципы разработки
-   * SOLID
+   * [SOLID](https://blog.byndyu.ru/2009/10/solid.html)
    * KISS (Keep it simple, stupid)
    * YAGNI (You aren't gonna need it)
    * DRY (Don’t repeat yourself)
