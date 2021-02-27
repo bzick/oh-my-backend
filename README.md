@@ -34,7 +34,7 @@ Oh My BackEnd
 * **[Этап 8. Тут должен быть ваш язык программирования](#этап-8-тут-должен-быть-ваш-язык-программирования)**
 * [Этап 9. Электронная почта](#этап-9-электронная-почта)
 * [Этап 10. Полнотексовый поиск](#этап-10-полнотексовый-поиск)
-* [Этап 11. Метрики](#этап-11-метрики)
+* [Этап 11. Логи и метрики](#этап-11-логи-и-метрики)
 * [Этап 12. Проектирование](#этап-12-проектирование)
 
 # Этап 1. Виртуализация docker
@@ -264,7 +264,7 @@ Oh My BackEnd
 а вот с noSQL можно знакомится на поздних стадиях.
 
 1. SQL базы данных MySQL/Postgres/итд. <kbd>junior</kbd>
-   > MySQL подразумевает как MySQL от Oracle, так и различные модификации как MariaDB, Percona XTraDB. 
+   > MySQL подразумевает как MySQL от Oracle, так и различные варианты в виде MariaDB, Percona XTraDB и тд. 
    * Базовый синтаксис запросов `SELECT`/`INSERT`/`UPDATE`/`DELETE`. <kbd>junior</kbd>
    * Создание и модификация таблиц <kbd>junior</kbd>
      * Типы колонок таблиц их назначение их различие (на примере MySQL и схожих) <kbd>junior</kbd>
@@ -528,7 +528,6 @@ Oh My BackEnd
 1. Подключение морфологий <kbd>junior</kbd>
 1. агрегации <kbd>middle</kbd> <kbd>guru ⚡</kbd>
 1. работа с nested-документами <kbd>middle</kbd>
-1. [ELK](https://www.elastic.co/what-is/elk-stack) <kbd>middle+</kbd>
 
 # Этап 11. Логи и метрики
 
@@ -536,6 +535,7 @@ Oh My BackEnd
 По факту сейчас среди opensource акуален [Prometheus](https://prometheus.io/) (или подобные, например, [Victoria Metrics](https://victoriametrics.com/)) для сбора 
 и анализа метрик и [Grafana](https://grafana.com/) для их отображения и настройки алертов.
 
+1. [ELK](https://www.elastic.co/what-is/elk-stack) <kbd>middle+</kbd>
 1. Prometheus <kbd>middle</kbd>
    * Типы метрик <kbd>middle</kbd>
      * count
@@ -559,7 +559,7 @@ Oh My BackEnd
 
 # Этап 12. Проектирование
 
-Паттерны, концепции и подходы к проектированию различных web-приложений. Пункт в процессе формирования, загляните позже.
+Паттерны, концепции и подходы к проектированию различных web-приложений.
 
 1. Схемы проектирования
    * Схема MVC
@@ -576,10 +576,11 @@ Oh My BackEnd
    * [Гексагональная архитектура](https://ru.qaz.wiki/wiki/Hexagonal_architecture_(software))
    * Event-Driven Architecture, EDA
    * Onion Architecture, Луковая архитектура
-1. [ООП шаблоны проектирования](https://bool.dev/blog/detail/gof-design-patterns)
+1. [Шаблоны проектирования](https://refactoring.guru/ru/design-patterns/examples)
    * Порождающие шаблоны проектирования
    * Структурные шаблоны проектирования
    * Поведенческие шаблоны проектирования
+1. [Приёмы рефакторинга](https://refactoring.guru/ru/refactoring/techniques)
 1. [Антипаттерны](https://ru.wikipedia.org/wiki/Антипаттерн)
 1. Распределенные системы
    * Теорема CAP
