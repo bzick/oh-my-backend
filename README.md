@@ -557,7 +557,7 @@ Oh My BackEnd
    * [Функции](https://prometheus.io/docs/prometheus/latest/querying/functions/), особенно стоит выделить 2 из них: <kbd>middle</kbd>
      * rate
      * irate
-1. Graphana <kbd>middle+</kbd>
+1. Grafana <kbd>middle+</kbd>
    * Создание дашбордов
    * Создание графиков
    * Настройка алертов
