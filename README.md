@@ -485,9 +485,6 @@ Oh My BackEnd
     * Как инициировать
     * Где храняться
     * Параллельное использование одной сессии несколькими запросами
-1. Принципы программирования <kbd>junior</kbd>
-    * KISS
-    * IoC
 1. Юнит тестирование <kbd>junior</kbd>
     * Ознакомление с системой тестирования в вашем языке
     * Test-Driven Development (TDD)
@@ -533,7 +530,7 @@ Oh My BackEnd
 1. работа с nested-документами <kbd>middle</kbd>
 1. [ELK](https://www.elastic.co/what-is/elk-stack) <kbd>middle+</kbd>
 
-# Этап 11. Метрики
+# Этап 11. Логи и метрики
 
 Любое приложение должно уметь генерировать _полезные_ метрики для системы сбора и анализа метрик. 
 По факту сейчас среди opensource акуален [Prometheus](https://prometheus.io/) (или подобные, например, [Victoria Metrics](https://victoriametrics.com/)) для сбора 
@@ -568,22 +565,21 @@ Oh My BackEnd
    * Схема MVC
    * Схема MVP
    * Схема MVVM
+1. GRASP (General Responsibility Assignment Software Patterns)
 1. Принципы разработки
    * SOLID
-   * GRASP
+   * KISS (Keep it simple, stupid)
+   * YAGNI (You aren't gonna need it)
+   * DRY (Don’t repeat yourself)
+   * IoC (Inversion of Control)
 1. Архитектуры
    * [Гексагональная архитектура](https://ru.qaz.wiki/wiki/Hexagonal_architecture_(software))
    * Event-Driven Architecture, EDA
    * Onion Architecture, Луковая архитектура
-1. Структурные шаблоны проектирования
-   * Адаптер (Adapter)
-   * Мост (Bridge)
-   * Компоновщик (Composite)
-   * Декоратор (Decorator)
-   * Фасад (Facade)
-   * Единая точка входа (Front Controller)
-   * Приспособленец (Flyweight)
-   * Заместитель (Proxy, прокси)
+1. [ООП шаблоны проектирования](https://bool.dev/blog/detail/gof-design-patterns)
+   * Порождающие шаблоны проектирования
+   * Структурные шаблоны проектирования
+   * Поведенческие шаблоны проектирования
 1. [Антипаттерны](https://ru.wikipedia.org/wiki/Антипаттерн)
 1. Распределенные системы
    * Теорема CAP
