@@ -626,7 +626,11 @@ Oh My BackEnd
 1. Методологии разработки
    * [TDD](https://habr.com/ru/company/ruvds/blog/450316/) (Test Driven Development)
    * BDD (Behavior Driven Development)
-   * E2E (End-to-End)
+1. Тестирование
+   * Unit тестирование
+   * Интеграционные тесты
+   * End-to-End (aka E2E aka Сквозное тестирование)
+   * Smoke test (aka дымовые тесты)
 1. [Приёмы рефакторинга](https://refactoring.guru/ru/refactoring/techniques)
 1. [Антипаттерны](https://ru.wikipedia.org/wiki/Антипаттерн)
 1. [Semver](https://semver.org/lang/ru/)
