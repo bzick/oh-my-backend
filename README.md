@@ -629,6 +629,7 @@ Oh My BackEnd
    * E2E (End-to-End)
 1. [Приёмы рефакторинга](https://refactoring.guru/ru/refactoring/techniques)
 1. [Антипаттерны](https://ru.wikipedia.org/wiki/Антипаттерн)
+1. [Semver](https://semver.org/lang/ru/)
 1. Распределенные системы
    * Теорема CAP
      > Теорема о том что ради 2х определённых параметров распределённой системы придётся пожертвовать другим 1 параметром.
