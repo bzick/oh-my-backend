@@ -405,7 +405,7 @@ Oh My BackEnd
    * Системные заголовки Host, Content-Length,
      [Content-Encoding](https://developer.mozilla.org/ru/docs/Web/HTTP/Headers/Content-Encoding),
      [Transfer-Encoding](https://developer.mozilla.org/ru/docs/Web/HTTP/Headers/Transfer-Encoding)) <kbd>junior</kbd>
-   * [Кеширование HTTP](https://developer.mozilla.org/ru/docs/Web/HTTP/Кэширование) и изучение HTTP заголовков управление кешом через `Cache-Control`, `Expires`, `Vary`, `ETag`, `Last-Modified`.
+   * [Кеширование HTTP](https://developer.mozilla.org/ru/docs/Web/HTTP/Кэширование), заголовки управления кешом: `Cache-Control`, `Expires`, `Vary`, `ETag`, `Last-Modified`.
 1. [Куки](https://developer.mozilla.org/ru/docs/Web/HTTP/%D0%9A%D1%83%D0%BA%D0%B8) <kbd>junior</kbd>
    > На данный момент это единственный точный способ идентифицировать пользователя.
 1. [Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/ru/docs/Web/HTTP/CORS) <kbd>middle</kbd>
