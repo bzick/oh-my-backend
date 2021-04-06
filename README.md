@@ -459,6 +459,8 @@ Oh My BackEnd
    * Фишинг сайта <kbd>junior</kbd>
    * Инъекции (например SQL-инъекции) <kbd>junior</kbd>
    * XSS атака <kbd>junior</kbd>
+   * IDOR уязвимость <kbd>middle</kbd>
+   * CRLF атака <kbd>junior</kbd>
    * DoS/DDoS <kbd>middle</kbd>
      * HTTP-флуд <kbd>middle</kbd>
      * SYN flood (потребуются знания TCP) <kbd>middle+</kbd>
