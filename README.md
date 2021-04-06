@@ -455,17 +455,22 @@ Oh My BackEnd
      > Данный вид авторизации используется, чаще всего, для авторизации во внутренних сервисах своих сотрудников.
    * JSON Web Token (JWT) <kbd>middle</kbd>
      > Это не тип авторизации, а инструмент для передачи идентифицирующих данных. Однако такой токен может иметь очень широкое применение
-1. Виды атак <kbd>junior</kbd>
+1. [Виды атак и уязвимостей](https://docs.wallarm.ru/attacks-vulns-list/) <kbd>junior</kbd>
    * Фишинг сайта <kbd>junior</kbd>
+   * Небезопасное перенаправление, Open Redirect <kbd>junior</kbd>
    * Инъекции (например SQL-инъекции) <kbd>junior</kbd>
    * XSS атака <kbd>junior</kbd>
    * IDOR уязвимость <kbd>middle</kbd>
    * CRLF атака <kbd>junior</kbd>
+   * LFI/RFI атака <kbd>junior</kbd>
    * DoS/DDoS <kbd>middle</kbd>
      * HTTP-флуд <kbd>middle</kbd>
      * SYN flood (потребуются знания TCP) <kbd>middle+</kbd>
      * UDP flood (UDP амплификация) <kbd>middle+</kbd>
      * Медленный запрос <kbd>middle</kbd>
+   * Бомбы <kbd>middle</kbd>
+      * Logic Bomb <kbd>middle</kbd>
+      * Zip Bomb <kbd>junior</kbd>
    * Атака посредника (Man In The Middle, MITM) <kbd>middle</kbd>
    * Брутфорс (например брутфорс паролей) <kbd>junior</kbd>
    * Спуфинг <kbd>middle</kbd>
