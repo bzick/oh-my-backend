@@ -129,7 +129,7 @@ Oh My BackEnd
    * Пользователь `root`. <kbd>junior</kbd>
    * Супер пользователь, команды [su](https://gitlab.com/doatta/gnu-linux-rhcsa/-/blob/master/17.%20su.md) и [sudo](https://gitlab.com/doatta/gnu-linux-rhcsa/-/blob/master/18.%20sudo.md). <kbd>junior</kbd>
      > Никто не даст вам root на проде, но вполне можете иметь "привилегированного" пользователя, который умеет в `sudo`.
-1. [Файловая система](https://gitlab.com/doatta/gnu-linux-rhcsa/-/blob/master/4.%20О%20файловых%20системах.md) <kbd>junior</kbd>
+1. [Файловая система](https://gitlab.com/doatta/gnu-linux-rhcsa/-/blob/master/04.%20%D0%9E%20%D1%84%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D1%8B%D1%85%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0%D1%85.md) <kbd>junior</kbd>
    * Команда `stat`  <kbd>junior</kbd>
    * [Права и доступы файловой системы](https://gitlab.com/doatta/gnu-linux-rhcsa/-/blob/master/20.%20Права%20на%20файлы.md) <kbd>junior</kbd>
      > Избыточные доступы ведут к дыре в безопасности, недостаток доступов ведёт к багам в приложении. Осмысленно ставьте где `x` (особенно у директорий), где `r`, а где `w`.
