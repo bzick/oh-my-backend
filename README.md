@@ -618,7 +618,7 @@ Oh My BackEnd
    * KISS (Keep it simple, stupid) <kbd>junior</kbd>
    * YAGNI (You aren't gonna need it) <kbd>junior</kbd>
    * DRY (Don’t repeat yourself) <kbd>junior</kbd>
-   * IoC (Inversion of Control), и как следствие DI (Dependency Injection) <kbd>middle</kbd>
+   * IoC (Inversion of Control), и как следствие — DI (Dependency Injection) <kbd>middle</kbd>
    * DDD (Domain-driven design) <kbd>middle</kbd>
 1. Архитектурные шаблоны <kbd>junior</kbd>
    > В одном проекте может быть один или несколько архитектырных шаблонов, или даже половина. Архитектурные шаблоны - не архитектура вашего приложения. 
@@ -626,6 +626,7 @@ Oh My BackEnd
    * Гексагональная архитектура <kbd>middle+</kbd>
    * [Event-Driven Architecture](https://habr.com/ru/post/346630/) (aka Шаблон посредника или Broker pattern) <kbd>middle+</kbd>
    * Onion Architecture (аkа Луковая архитектура или Многоуровневый шаблон) <kbd>middle+</kbd>
+   * CQRS (The Command and Query Responsibility Segregation) <kbd>middle+</kbd>
    * Шаблон MVC <kbd>junior</kbd>
      > Самый старый и достаточно распространённый шаблон проектирования приложения, разделяющий UI от логики приложения.
    * Шаблон MVP <kbd>junior</kbd>
