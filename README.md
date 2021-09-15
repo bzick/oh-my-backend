@@ -53,7 +53,7 @@ Oh My BackEnd
 Есть много систем виртуализаций, но docker выделяется среди них. Он один из популярных десктопных виртуализаций и близок с Kubernetes (aka k8s) - популярной серверной виртуализацией.
 
 1. установить [docker](https://www.docker.com/products/docker-desktop) <kbd>junior</kbd>
-1. запустить контейнер с Linux Ubuntu, последней [LTS версией](https://ru.wikipedia.org/wiki/Список_версий_Ubuntu#История_выпусков). Запустить bash (консоль) контейнера. <kbd>junior</kbd>
+1. запустить контейнер с Linux Ubuntu, последней [LTS версией](https://ru.wikipedia.org/wiki/Список_версий_Ubuntu#Выпуски). Запустить bash (консоль) контейнера. <kbd>junior</kbd>
 1. установить удобное приложение для управления образами и контейнерами [Kitematic](https://kitematic.com/), [Portainer](https://hub.docker.com/r/portainer/portainer/) и тд. 
    Либо сродниться с консольными командами docker. На некоторых OC десктопный docker уже имеет [свой dashboard](https://docs.docker.com/desktop/dashboard/) для управления образами и контейнерами. <kbd>junior</kbd>
 1. docker compose для поднятия кластера контейнеров. <kbd>middle</kbd>
