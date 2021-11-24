@@ -666,6 +666,7 @@ Oh My BackEnd
    * Onion Architecture (аkа Луковая архитектура или Многоуровневый шаблон) <kbd>middle+</kbd>
    * CQRS (The Command and Query Responsibility Segregation) <kbd>middle+</kbd>
    * SoA (Service-Oriented Architecture) <kbd>middle+</kbd>
+   * Event Sourcing <kbd>middle+</kbd>
    * Шаблон MVC <kbd>junior</kbd>
      > Самый старый и достаточно распространённый шаблон проектирования приложения, разделяющий UI от логики приложения.
    * [Шаблон ADR](https://habr.com/ru/post/260769/) (Action-Domain-Responder)
