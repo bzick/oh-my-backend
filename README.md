@@ -110,7 +110,7 @@ Oh My BackEnd
    * [Отправка сигналов процессам](https://ru.wikipedia.org/wiki/Сигнал_(Unix)). <kbd>junior</kbd>
      > Это основной рычаг воздействия на процессы сторонними приложениями (системными или вашими).
        * Изучение команд `kill`, `pkill`, `killall`. <kbd>junior</kbd>
-       * Назначение сигналов [SIGKILL](https://ru.wikipedia.org/wiki/SIGKILL), [SIGTERM](https://ru.wikipedia.org/wiki/SIGTERM), [SIGINT](https://ru.wikipedia.org/wiki/SIGTERM), [SIGHUP](https://ru.wikipedia.org/wiki/SIGHUP), [SIGSEGV](https://ru.wikipedia.org/wiki/SIGSEGV). <kbd>middle</kbd>
+       * Назначение сигналов [SIGKILL](https://ru.wikipedia.org/wiki/SIGKILL), [SIGTERM](https://ru.wikipedia.org/wiki/SIGTERM), [SIGINT](https://ru.wikipedia.org/wiki/SIGINT), [SIGHUP](https://ru.wikipedia.org/wiki/SIGHUP), [SIGSEGV](https://ru.wikipedia.org/wiki/SIGSEGV). <kbd>middle</kbd>
    * Системный вызов (syscall). <kbd>middle+</kbd>
      > Системный вызов (вызов API ядра Linux) — не бесплатная операция и лучше их держать под контролем на высоконагруженных приложениях.
    * Команда анализа системных вызов процесса через `strace`. <kbd>middle+</kbd>
