@@ -86,7 +86,7 @@ Oh My BackEnd
      > Этот набор потребуется для сканирования и анализа логов или больших объёмов текстовых данных.
    * Команды работы с архивами данных `zcat`, `gzip`, `gunzip`, `tar`, `zgrep`. <kbd>middle</kbd>
      > Как правило, никто не хранит логи или большие объёмы текстовых данных "как есть", обычно это архив `gz` или `tar.gz` (`tgz`).
-   * [Консольные редакторы vim, nano.](https://gitlab.com/doatta/gnu-linux-rhcsa/-/blob/master/10.%20Текстовые%20редакторы%20nano%20и%20vi.md) Открыть файл, внести изменения, сохранить. <kbd>junior</kbd>
+   * [Консольные редакторы vim, nano.](https://basis.gnulinux.pro/ru/latest/basis/10/10._%D0%A2%D0%B5%D0%BA%D1%81%D1%82%D0%BE%D0%B2%D1%8B%D0%B5_%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%BE%D1%80%D1%8B_nano_%D0%B8_vi.html) Открыть файл, внести изменения, сохранить. <kbd>junior</kbd>
      > Редактирование файла из консоли не такая редкость. Кстати, что бы выйти из vim: esc, напечатайте `:q!`, enter.
    * Консольные просмотрщики `less`, `zless`. Открыть, найти слово, закрыть. <kbd>junior</kbd>
      > Редакторы избыточны, что бы просто посмотреть содержимое файла. Просмотрщики так же справляются с не "стандартными" для редакторов файлами.
@@ -94,7 +94,7 @@ Oh My BackEnd
      > Оператор позволит в одной shell-сессии запускать несколько команд.
    * Команда игнорирования сигналов прерываний `nohup`. <kbd>middle</kbd>
      > Команда позволит, при завершении shell-сессии, оставлять в живых запущенные фоновые задачи до их логического завершения.
-   * [Потоки, перенаправление потоков](http://gitlab.com/doatta/gnu-linux-rhcsa/-/blob/master/11.%20Стандартные%20потоки.md), операторы `>`, `>>`, `<`. <kbd>junior</kbd>
+   * [Потоки, перенаправление потоков](https://basis.gnulinux.pro/ru/latest/basis/11/11._%D0%A1%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%D0%BD%D1%8B%D0%B5_%D0%BF%D0%BE%D1%82%D0%BE%D0%BA%D0%B8.html), операторы `>`, `>>`, `<`. <kbd>junior</kbd>
      > Куда писать вывод, а куда ошибки, помогут указать эти операции.
    * [Упороться полностью консолью](https://github.com/jlevy/the-art-of-command-line/blob/master/README-ru.md) <kbd>guru ⚡</kbd>
 1. Понятие `процесс`. <kbd>junior</kbd>
@@ -125,20 +125,20 @@ Oh My BackEnd
      > Не редкая проблема приложений когда оно упирается в лимит открытых дескрипторов.
    * Команда анализа открытых дескрипторов у процесса через `lsof`. <kbd>middle+</kbd>
      > Для отладки приложения всегда надо знать с чем ведёт общение приложение (отлично работает в паре с `strace`, сопоставляя номера дескрипторов).
-1. [Пользователи](https://gitlab.com/doatta/gnu-linux-rhcsa/-/blob/master/19.%20Пользователи.md) <kbd>junior</kbd>
+1. [Пользователи](https://basis.gnulinux.pro/ru/latest/basis/19/19._%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D0%B8.html) <kbd>junior</kbd>
    * Пользователь `root`. <kbd>junior</kbd>
      > По сути это админ системы. Избегайте использование root (даже в контейнерах) так как доступ к root даёт доступ ко всей системе, о чем мечтают все зловреды.
-   * Супер пользователь, команды [su](https://gitlab.com/doatta/gnu-linux-rhcsa/-/blob/master/17.%20su.md) и [sudo](https://gitlab.com/doatta/gnu-linux-rhcsa/-/blob/master/18.%20sudo.md). <kbd>junior</kbd>
+   * Супер пользователь, команды [su](https://basis.gnulinux.pro/ru/latest/basis/17/17._su.html) и [sudo](https://basis.gnulinux.pro/ru/latest/basis/18/18._sudo.html). <kbd>junior</kbd>
      > Никто не даст вам root на проде, но вполне можете иметь "привилегированного" пользователя, который умеет в `sudo`.
-1. [Файловая система](https://gitlab.com/doatta/gnu-linux-rhcsa/-/blob/master/04.%20%D0%9E%20%D1%84%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D1%8B%D1%85%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0%D1%85.md) <kbd>junior</kbd>
+1. [Файловая система](https://basis.gnulinux.pro/ru/latest/basis/04/04._%D0%9E_%D1%84%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D1%8B%D1%85_%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0%D1%85.html) <kbd>junior</kbd>
    * Команда `stat` <kbd>junior</kbd>
-   * [Права и доступы файловой системы](https://gitlab.com/doatta/gnu-linux-rhcsa/-/blob/master/20.%20Права%20на%20файлы.md) <kbd>junior</kbd>
+   * [Права и доступы файловой системы](https://basis.gnulinux.pro/ru/latest/basis/20/20._%D0%9F%D1%80%D0%B0%D0%B2%D0%B0_%D0%BD%D0%B0_%D1%84%D0%B0%D0%B9%D0%BB%D1%8B.html) <kbd>junior</kbd>
      > Избыточные доступы ведут к дыре в безопасности, недостаток доступов ведёт к багам в приложении. Осмысленно ставьте где `x` (особенно у директорий), где `r`, а где `w`.
    * Понимание описания доступов вида `--xr-xrwx` и `0137` (восьмеричная) у файлов и директорий. <kbd>junior</kbd>
      > Обычно в таком виде вы будете видеть уровни доступов в консолях.
    * Исполняемые файлы, [sha bang](https://ru.wikipedia.org/wiki/Шебанг_(Unix)). <kbd>junior</kbd>
    * Изменение прав доступов через команды `chmod`, `chown`. <kbd>middle</kbd>
-   * [Работа с дисками](https://gitlab.com/doatta/gnu-linux-rhcsa/-/blob/master/22.%20Работа%20с%20дисками.md) <kbd>middle+</kbd>
+   * [Работа с дисками](https://basis.gnulinux.pro/ru/latest/basis/22/22._%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0_%D1%81_%D0%B4%D0%B8%D1%81%D0%BA%D0%B0%D0%BC%D0%B8.html) <kbd>middle+</kbd>
      > Нужно знать где, как и куда примонтированы различные диски или носители. Бывает, что приложение может работать сразу с несколькими дисками, некоторые могут быть сетевыми.
 1. Ссылки на файловой системе. <kbd>junior</kbd>
    * Symlink (aka символическая ссылка). <kbd>junior</kbd>
