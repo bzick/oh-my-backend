@@ -351,7 +351,7 @@ Oh My BackEnd
        * Алгоритм parent-child <kbd>junior</kbd>
          > Классический вариант "с parent_id" у дочерних элементов. Простые и "дешевые" на вставку элементов в деревья.
          > Но такие деревья затратные "на сборку".
-       * Алгоритм [nested sets](https://devacademy.ru/article/nested-set) <kbd>middle</kbd>
+       * Алгоритм [nested sets](https://ru.wikipedia.org/wiki/%D0%92%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5_%D0%BC%D0%BD%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2%D0%BE_(%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C)) <kbd>middle</kbd>
          > Алгоритм позволяет достаточно дёшево собирать деревья с различными модификациями и сегментами.
          > Но затратные на вставку элементов в деревья.
 1. Документо-ориентированная база данных (часть NoSQL баз данных) — MongoDB. <kbd>middle</kbd>
@@ -426,7 +426,7 @@ Oh My BackEnd
      * Формат передачи [multipart/form-data](https://ru.wikipedia.org/wiki/Multipart/form-data) <kbd>middle</kbd>
    * Системные заголовки Host, Content-Length,
      [Content-Encoding](https://developer.mozilla.org/ru/docs/Web/HTTP/Headers/Content-Encoding),
-     [Transfer-Encoding](https://developer.mozilla.org/ru/docs/Web/HTTP/Headers/Transfer-Encoding)) <kbd>junior</kbd>
+     [Transfer-Encoding](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Transfer-Encoding)) <kbd>junior</kbd>
    * [Кэширование HTTP](https://developer.mozilla.org/ru/docs/Web/HTTP/Кэширование), заголовки управления кэшем: `Cache-Control`, `Expires`, `Vary`, `ETag`, `Last-Modified`.
 1. [Куки](https://developer.mozilla.org/ru/docs/Web/HTTP/%D0%9A%D1%83%D0%BA%D0%B8) <kbd>junior</kbd>
    > На данный момент это единственный точный способ идентифицировать пользователя.
@@ -769,4 +769,4 @@ Oh My BackEnd
    * [Теоремы CAP и PACELC](https://habr.com/ru/company/gaz-is/blog/551986/)
      > В распределённых системах придётся чем-то жертвовать. PACELC - расширенная теорема CAP.
      > Эти теоремы как раз описывают какими параметрами придётся пожертвовать системе.
-   * [Микросервисная архитектура](https://dataart.team/ru/news/microservices-kak-pravil-no-delat-i-kogda-primenyat/)
+   * [Микросервисная архитектура](https://habr.com/ru/company/dataart/blog/280083/)
