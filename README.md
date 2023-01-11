@@ -242,6 +242,8 @@ Oh My BackEnd
 Сеть в разработке самая важная и, часто, мало заметная часть.
 
 1. Базовое понимание работы сети. <kbd>junior</kbd>
+   * [Как работает Интернет](https://developer.mozilla.org/ru/docs/Learn/Common_questions/How_does_the_Internet_work) <kbd>junior</kbd>
+   * Сокет, адрес, порт <kbd>junior</kbd>
    * Протокол TCP <kbd>middle</kbd>
      > Вы вряд ли будете читать пакеты TCP. Но полезно знать КАК работает TCP,
      > это позволит понять почему при идеальных "интернетах" всё равно приложение может лагать по сети.
