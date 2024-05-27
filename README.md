@@ -56,7 +56,7 @@ Oh My BackEnd
 1. запустить контейнер с Linux Ubuntu, последней [LTS версией](https://ru.wikipedia.org/wiki/Список_версий_Ubuntu#Выпуски). Запустить bash (консоль) контейнера. <kbd>junior</kbd>
 1. установить удобное приложение для управления образами и контейнерами [Kitematic](https://kitematic.com/), [Portainer](https://hub.docker.com/r/portainer/portainer/) и т.д. 
    Либо сродниться с консольными командами docker. docker-desktop уже имеет [свой dashboard](https://docs.docker.com/desktop/dashboard/) для управления образами и контейнерами. <kbd>junior</kbd>
-1. docker compose для поднятия кластера контейнеров. <kbd>middle</kbd>
+1. [docker compose](https://docs.docker.com/compose/) для поднятия кластера контейнеров. <kbd>middle</kbd>
    > Для рабочего приложения, как правило, требуется несколько различных сервисов (база данных, кэшер, http-сервер и т.д.)
    > и всё это упаковать в один docker контейнер будет проблемно, просто из-за специфики работы самой виртуализации.
    > Тут как раз поможет compose чтобы запустить кучу контейнеров и подружить их между собой.
